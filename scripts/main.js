@@ -20,3 +20,6 @@
     guardar en otra variable el hexagrama mutado también. 
     mostrar en DOM con boton de mutar -> que muestre el hexagrama mutado y permita volver. 
 */
+
+
+console.log("hola");
