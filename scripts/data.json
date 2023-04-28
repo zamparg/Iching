@@ -1,0 +1,584 @@
+{
+    "iching": [
+        {
+            "id": 1,
+            "titulo": "CH'IEN / EL CREADOR",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },
+        {
+            "id": 2,
+            "titulo": "K'UN / LO RECEPTIVO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 3,
+            "titulo": "CHUNG / LA DIFICULTAD INICIAL",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 4,
+            "titulo": "MENG / LA LOCURA JUVENIL",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 5,
+            "titulo": "HSÜ / LA ESPERA (LA NUTRICION)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 6,
+            "titulo": "SUNG/ EL CONFLICTO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 7,
+            "titulo": "SHIH / EL EJÉRCITO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 8,
+            "titulo": "PI / LA SOLIDARIDAD",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 9,
+            "titulo": "HSIAO CH'U / EL PODER DOMINANTE DE LO PEQUEÑO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 10,
+            "titulo": "LIU / LA MARCHA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 11,
+            "titulo": "TAI / LA PAZ",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 12,
+            "titulo": "P'I / EL ESTANCAMIENTO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 13,
+            "titulo": "T'UNG JEN / LA COMUNIDAD CON LOS HOMBRES",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 14,
+            "titulo": "TA YU / LA POSESION DE LO GRANDE (El gran haber)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 15,
+            "titulo": "CH'IEN / LA HUMILDAD",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 16,
+            "titulo": "YÜ /EL ENTUSIASMO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 17,
+            "titulo": "SUI / EL SÉQUITO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 18,
+            "titulo": "KU / EL TRABAJO SOBRE LO CORRUPTO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 19,
+            "titulo": "LIN / LA APROXIMACIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },    {
+            "id": 20,
+            "titulo": "KUAN / LA CONTEMPLACIÓN (LA VISIÓN)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },
+        {
+            "id": 21,
+            "titulo": "SHIH HO / MORDIENDO A TRAVÉS",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },
+        {
+            "id": 22,
+            "titulo": "PI / LA GRACIA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 23,
+            "titulo": "PO / LA DISPERSIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 24,
+            "titulo": "PU / EL RETORNO (EL CAMBIO DE TIEMPO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 25,
+            "titulo": "WU WANG / LA INOCENCIA ( Lo Inesperado )",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 26,
+            "titulo": "TA CHU / EL PODER DOMINANTE DE LO GRANDE",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 27,
+            "titulo": "I / LAS COMISURAS DE LOS LABIOS (LA NUTRICIÓN)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 28,
+            "titulo": "TA KUO / EL SOBREPESO DE LO GRANDE",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 29,
+            "titulo": "K’AN / LO INSONDABLE, EL AGUA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 30,
+            "titulo": "LI / LO ADHERENTE, EL FUEGO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 31,
+            "titulo": "HIEN / LA INFLUENCIA, EL CORTEJO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 32,
+            "titulo": "HONG / LA DURACIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 33,
+            "titulo": "TUN / LA RETIRADA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 34,
+            "titulo": "TA CHUANG / EL GRAN PODER",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 35,
+            "titulo": "CHIN / EL PROGRESO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 36,
+            "titulo": "MING I/ EL OSCURECIMIENTO DE LA LUZ",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 37,
+            "titulo": "CHIA JEN / LA FAMILIA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 38,
+            "titulo": "K'UEI / LA OPOSICIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 39,
+            "titulo": "CHIEN /EL OBSTÁCULO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 40,
+            "titulo": "HSIEH / LA LIBERACIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 41,
+            "titulo": "SUN / LA MENGUA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 42,
+            "titulo": "I CHI / EL AUMENTO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 43,
+            "titulo": "KUAI, LA IRRUPCIÓN (La resolución)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 44,
+            "titulo": "KOU / VENIR AL ENCUENTRO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 45,
+            "titulo": "TS'UI / LA REUNIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 46,
+            "titulo": "SHENG / EL EMPUJE HACIA ARRIBA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 47,
+            "titulo": "K'UN / EL AGOBIO (El agotamiento)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 48,
+            "titulo": "CHING / EL POZO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 49,
+            "titulo": "KO / LA REVOLUCIÓN ( La muda )",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 50,
+            "titulo": "TING / EL CALDERO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 51,
+            "titulo": "CHEN / LA EXCITACIÓN (La Conmoción, el Trueno)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 52,
+            "titulo": "KEN / LA INMOVILIDAD, LA MONTAÑA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 53,
+            "titulo": "CHIEN / EL DESARROLLO (El progreso gradual)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 54,
+            "titulo": "KUEI MEI / LA DONCELLA CASADERA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 55,
+            "titulo": "FENG /LA ABUNDANCIA",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 56,
+            "titulo": "LU / EL VIAJERO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 57,
+            "titulo": "SUN / LO DOCIL ( Lo penetrante, el viento )",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 58,
+            "titulo": "TUI / LO PLACENTERO, EL LAGO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 59,
+            "titulo": "HUAN / LA DISOLUCIÓN (La dispersión)",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 60,
+            "titulo": "CHIEH / LA LIMITACION",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 61,
+            "titulo": "CHUNG FU / LA VERDAD INTERIOR",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 62,
+            "titulo": "HSIAO KUO / LA PREPONDERANCIA DE LO PEQUEÑO",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 63,
+            "titulo": "CHI CHI / DESPUES DE LA TERMINACIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        },{
+            "id": 64,
+            "titulo": "WE I CHI / ANTES DE LA TERMINACIÓN",
+            "description": "",
+            "trigrama": {
+                "superior": "",
+                "inferior": ""
+            },
+            "hexagrama": ""
+        }
+    ]
+}
