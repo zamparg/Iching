@@ -3,7 +3,8 @@
         "id": 1,
         "name": "CH'IEN / Lo Creativo",
         "image_name":"Cielo",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Cielo-removebg-preview_t6rn0z.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Cielo-removebg-preview_t6rn0z.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Cielo2-removebg-preview_qctk1d.png",
         "atributte": "fuerza", 
         "family_relationship": "padre"
     },
@@ -11,7 +12,8 @@
         "id": 2,
         "name": "K' un / Lo Receptivo",
         "image_name":"Tierra",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Tierra-removebg-preview_xswxbi.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Tierra-removebg-preview_xswxbi.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Tierra2-removebg-preview_akxgpf.png",
         "atributte": "devoción, docilidad",
         "family_relationship": "madre"
     },
@@ -19,7 +21,8 @@
         "id": 3,
         "name": "Chen / Lo que despierta Excitación",
         "image_name":"Trueno",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Trueno-removebg-preview_rcwgfy.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Trueno-removebg-preview_rcwgfy.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Trueno2-removebg-preview_ynsonr.png",
         "atributte": "incita al movimiento",
         "family_relationship": "primer hijo"
     },
@@ -27,7 +30,8 @@
         "id": 4,
         "name": "K'AN / El abismo",
         "image_name":"Agua",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Agua-removebg-preview_otuvrd.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Agua-removebg-preview_otuvrd.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Agua2-removebg-preview_kunqwa.png",
         "atributte": "peligro",
         "family_relationship": "segundo hijo"
     },
@@ -35,7 +39,8 @@
         "id": 5,
         "name": "KEN /La inmovilidad",
         "image_name":"Montaña",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Monta%C3%B1a-removebg-preview_x7scq6.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Monta%C3%B1a-removebg-preview_x7scq6.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Monta%C3%B1a2-removebg-preview_ceki0a.png",
         "atributte": "reposo",
         "family_relationship": "tercer hijo"
     },
@@ -43,7 +48,8 @@
         "id": 6,
         "name": "SUN / Lo suave, Lo dócil",
         "image_name":"Viento Bosque",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Viento-removebg-preview_k9h8s3.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Viento-removebg-preview_k9h8s3.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Viento2-removebg-preview_fpzqyf.png",
         "atributte": "penetración",
         "family_relationship": "primera hija"
     },
@@ -51,7 +57,8 @@
         "id": 7,
         "name": "LI / Lo adherente, Lo oscilante",
         "image_name":"Fuego",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Fuego-removebg-preview_gjbi6g.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Fuego-removebg-preview_gjbi6g.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953832/I_ching%20_trigramas/Fuego2-removebg-preview_sgz9tb.png",
         "atributte": "Dar luz",
         "family_relationship": "segunda hija"
     },
@@ -59,7 +66,8 @@
         "id": 8,
         "name": "TUI / Lo gozoso, Lo alegre",
         "image_name":"Lago",
-        "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Lago-removebg-preview_lzxit9.png",
+        "image_original_colors": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Lago-removebg-preview_lzxit9.png",
+        "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953832/I_ching%20_trigramas/Lago2-removebg-preview_rfypic.png",
         "atributte": "alegría",
         "family_relationship": "tercera hija"
     }
