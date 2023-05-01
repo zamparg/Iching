@@ -22,30 +22,43 @@
 */
 
 
+
 let numeros = [6, 7, 8, 9] 
 
 function monedasGiro(numeros) {
     moneda = numeros[Math.floor(Math.random() * numeros.length)];
     return moneda
 }
-console.log(monedasGiro(numeros));
+//console.log(monedasGiro(numeros));
 
 function mutable() {
-    if (moneda === 6 || moneda === 9) {
+    if (sumatoria === 6 || sumatoria === 9) {
         return true
     }
     else {
         return false
     }
 }
-console.log(mutable());
+//console.log(mutable());
 
 function lineaCompleta() {
-    if (moneda === 7 || moneda === 9) {
+    if (sumatoria === 7 || sumatoria === 9) {
         return true
     }
     else {
         return false
     }
 }
-console.log(lineaCompleta());
+//console.log(lineaCompleta());
+
+function tirada() {
+    let moneda1 = Math.floor(Math.random() * (3 - 2) + 2) // devuelve un valor entre 2 y 3
+    let moneda2 = Math.floor(Math.random() * (3 - 2) + 2)
+    let moneda3 = Math.floor(Math.random() * (3 - 2) + 2)
+    // función que pinte monedas
+    let sumatoria= moneda1+moneda2+moneda3
+    mutable(sumatoria)
+    lineaCompleta(sumatoria)
+    // push de resultado a objeto personalizado. 
+}
+
