@@ -22,16 +22,40 @@
 */
 
 
-let numeros = [6, 7, 8, 9] 
+let numeros = [6, 7, 8, 9]
+let buttonContainer=document.getElementById('buttonContainer')
+let buttonCoins=document.getElementById('buttonCoins')
+let flipper = 1
+buttonCoins.addEventListener('click', flipCoins)
 
-function monedasGiro(numeros) {
-    moneda = numeros[Math.floor(Math.random() * numeros.length)];
-    return moneda
+let question = {
+    'hexagram':[],
+    'hexagramM':[]
 }
-console.log(monedasGiro(numeros));
 
-function mutable() {
-    if (moneda === 6 || moneda === 9) {
+
+function flipCoins(e) {
+    let moneda1 = Math.round(Math.random() * (3 - 2) + 2) // devuelve un valor entre 2 y 3
+    let moneda2 = Math.round(Math.random() * (3 - 2) + 2)
+    let moneda3 = Math.round(Math.random() * (3 - 2) + 2)
+    console.log(moneda1,moneda2, moneda3)
+    // función que pinte monedas
+    let sumatoria= moneda1+moneda2+moneda3
+    let flip ={
+        'line': typeOfLine(sumatoria),
+        'mutable':mutable(sumatoria)
+    }
+    question.hexagram.push(flip)
+    if(flipper==6){
+        buttonContainer.innerHTML=``
+    }
+    flipper+=1
+    console.log(question)
+}
+
+
+function mutable(coin) {
+    if (coin === 6 || coin === 9) {
         return true
     }
     else {
@@ -40,12 +64,12 @@ function mutable() {
 }
 console.log(mutable());
 
-function lineaCompleta() {
-    if (moneda === 7 || moneda === 9) {
+function typeOfLine(coin) {
+    if (coin === 7 || coin === 9) {
         return true
     }
     else {
         return false
     }
 }
-console.log(lineaCompleta());
+console.log(typeOfLine());
