@@ -7,7 +7,8 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Cielo2-removebg-preview_qctk1d.png",
         "atributte": "fuerza", 
         "family_relationship": "padre",
-        "lines":[true,true, true]
+        "lines":[true,true,true]
+
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Tierra2-removebg-preview_akxgpf.png",
         "atributte": "devoción, docilidad",
         "family_relationship": "madre",
-        "lines":[true,true, true]
+        "lines":[false,false,false]
+
     },
     {
         "id": 3,
@@ -27,7 +29,8 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Trueno2-removebg-preview_ynsonr.png",
         "atributte": "incita al movimiento",
         "family_relationship": "primer hijo",
-        "lines":[true,true, true]
+        "lines":[true,false,false]
+
     },
     {
         "id": 4,
@@ -37,7 +40,7 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Agua2-removebg-preview_kunqwa.png",
         "atributte": "peligro",
         "family_relationship": "segundo hijo",
-        "lines":[true,true, true]
+        "lines":[false,true,false]
     },
     {
         "id": 5,
@@ -47,7 +50,8 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Monta%C3%B1a2-removebg-preview_ceki0a.png",
         "atributte": "reposo",
         "family_relationship": "tercer hijo",
-        "lines":[true,true, true]
+        "lines":[false,false,true]
+
     },
     {
         "id": 6,
@@ -57,7 +61,7 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Viento2-removebg-preview_fpzqyf.png",
         "atributte": "penetración",
         "family_relationship": "primera hija",
-        "lines":[true,true, true]
+        "lines":[false,true,true]
     },
     {
         "id": 7,
@@ -67,7 +71,8 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953832/I_ching%20_trigramas/Fuego2-removebg-preview_sgz9tb.png",
         "atributte": "Dar luz",
         "family_relationship": "segunda hija",
-        "lines":[true,true, true]
+        "lines":[true,false,true]
+
     },
     {
         "id": 8,
@@ -77,7 +82,7 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953832/I_ching%20_trigramas/Lago2-removebg-preview_rfypic.png",
         "atributte": "alegría",
         "family_relationship": "tercera hija",
-        "lines":[true,true, true]
+        "lines":[true,true,false]
     }
 ]
 }
