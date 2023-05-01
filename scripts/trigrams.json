@@ -5,7 +5,8 @@
         "image_name":"Cielo",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Cielo-removebg-preview_t6rn0z.png",
         "atributte": "fuerza", 
-        "family_relationship": "padre"
+        "family_relationship": "padre",
+        "lines":[true,true,true]
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "image_name":"Tierra",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Tierra-removebg-preview_xswxbi.png",
         "atributte": "devoción, docilidad",
-        "family_relationship": "madre"
+        "family_relationship": "madre",
+        "lines":[false,false,false]
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "image_name":"Trueno",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Trueno-removebg-preview_rcwgfy.png",
         "atributte": "incita al movimiento",
-        "family_relationship": "primer hijo"
+        "family_relationship": "primer hijo",
+        "lines":[true,false,false]
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "image_name":"Agua",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Agua-removebg-preview_otuvrd.png",
         "atributte": "peligro",
-        "family_relationship": "segundo hijo"
+        "family_relationship": "segundo hijo",
+        "lines":[false,true,false]
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "image_name":"Montaña",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Monta%C3%B1a-removebg-preview_x7scq6.png",
         "atributte": "reposo",
-        "family_relationship": "tercer hijo"
+        "family_relationship": "tercer hijo",
+        "lines":[false,false,true]
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "image_name":"Viento Bosque",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Viento-removebg-preview_k9h8s3.png",
         "atributte": "penetración",
-        "family_relationship": "primera hija"
+        "family_relationship": "primera hija",
+        "lines":[false,true,true]
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "image_name":"Fuego",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Fuego-removebg-preview_gjbi6g.png",
         "atributte": "Dar luz",
-        "family_relationship": "segunda hija"
+        "family_relationship": "segunda hija",
+        "lines":[true,false,true]
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "image_name":"Lago",
         "image": "https://res.cloudinary.com/dhvz93a4h/image/upload/v1682789200/I_ching%20_trigramas/Lago-removebg-preview_lzxit9.png",
         "atributte": "alegría",
-        "family_relationship": "tercera hija"
+        "family_relationship": "tercera hija",
+        "lines":[true,true,false]
     }
 ]
 }
