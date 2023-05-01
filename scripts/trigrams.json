@@ -7,8 +7,7 @@
         "image_new_colors":"https://res.cloudinary.com/dhvz93a4h/image/upload/v1682953833/I_ching%20_trigramas/Cielo2-removebg-preview_qctk1d.png",
         "atributte": "fuerza", 
         "family_relationship": "padre",
-        "lines":[true,true,true]
-
+        "lines":[true,true, true]
     },
     {
         "id": 2,
@@ -19,7 +18,6 @@
         "atributte": "devoción, docilidad",
         "family_relationship": "madre",
         "lines":[false,false,false]
-
     },
     {
         "id": 3,
@@ -30,7 +28,6 @@
         "atributte": "incita al movimiento",
         "family_relationship": "primer hijo",
         "lines":[true,false,false]
-
     },
     {
         "id": 4,
@@ -51,7 +48,6 @@
         "atributte": "reposo",
         "family_relationship": "tercer hijo",
         "lines":[false,false,true]
-
     },
     {
         "id": 6,
@@ -72,7 +68,6 @@
         "atributte": "Dar luz",
         "family_relationship": "segunda hija",
         "lines":[true,false,true]
-
     },
     {
         "id": 8,

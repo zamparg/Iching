@@ -25,10 +25,12 @@ start()
 let trigrams
 let hexagrams
 
+
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
 let flipper = 1
 buttonCoins.addEventListener('click', flipCoins)
+
 
 let question = {
     'hexagram':[],
@@ -64,15 +66,16 @@ function mutable(coin) {
         return false
     }
 }
-
 function typeOfLine(coin) {
     if (coin === 7 || coin === 9) {
+
         return true
     }
     else {
         return false
     }
 }
+
 
 function searchHexagram(){
     console.log(trigrams, question)
