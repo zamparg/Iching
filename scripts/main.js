@@ -116,3 +116,5 @@ async function start(){
     trigrams = await fetchData('./scripts/trigrams.json');
     hexagrams = await fetchData('./scripts/data.json')
 }
+
+console.log(question)
