@@ -25,7 +25,6 @@ start()
 let trigrams
 let hexagrams
 
-
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
 let flipper = 1
@@ -67,7 +66,6 @@ function mutable(coin) {
 }
 function typeOfLine(coin) {
     if (coin === 7 || coin === 9) {
-
         return true
     }
     else {
@@ -116,5 +114,4 @@ async function start(){
     trigrams = await fetchData('./scripts/trigrams.json');
     hexagrams = await fetchData('./scripts/data.json')
 }
-
 console.log(question)
