@@ -4,9 +4,9 @@
             "id": 1,
             "title": "CH'IEN / EL CREADOR",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -27,9 +27,9 @@
             "id": 2,
             "title": "K'UN / LO RECEPTIVO",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -50,9 +50,9 @@
             "id": 3,
             "title": "CHUNG / LA DIFICULTAD INICIAL",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -73,9 +73,9 @@
             "id": 4,
             "title": "MENG / LA LOCURA JUVENIL",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
@@ -96,9 +96,9 @@
             "id": 5,
             "title": "HSÜ / LA ESPERA (LA NUTRICION)",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -119,9 +119,9 @@
             "id": 6,
             "title": "SUNG/ EL CONFLICTO",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
@@ -142,9 +142,9 @@
             "id": 7,
             "title": "SHIH / EL EJÉRCITO",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -165,9 +165,9 @@
             "id": 8,
             "title": "PI / LA SOLIDARIDAD",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -188,9 +188,9 @@
             "id": 9,
             "title": "HSIAO CH'U / EL PODER DOMINANTE DE LO PEQUEÑO",
             "hexagram": {
-                "superior": "",
+                "superior": 9,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -211,9 +211,9 @@
             "id": 10,
             "title": "LIU / LA MARCHA",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -234,9 +234,9 @@
             "id": 11,
             "title": "TAI / LA PAZ",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -257,9 +257,9 @@
             "id": 12,
             "title": "P'I / EL ESTANCAMIENTO",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -280,9 +280,9 @@
             "id": 13,
             "title": "T'UNG JEN / LA COMUNIDAD CON LOS HOMBRES",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -303,9 +303,9 @@
             "id": 14,
             "title": "TA YU / LA POSESION DE LO GRANDE (El gran haber)",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -326,9 +326,9 @@
             "id": 15,
             "title": "CH'IEN / LA HUMILDAD",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -349,9 +349,9 @@
             "id": 16,
             "title": "YÜ /EL ENTUSIASMO",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -372,9 +372,9 @@
             "id": 17,
             "title": "SUI / EL SÉQUITO",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -395,9 +395,9 @@
             "id": 18,
             "title": "KU / EL TRABAJO SOBRE LO CORRUPTO",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -418,9 +418,9 @@
             "id": 19,
             "title": "LIN / LA APROXIMACIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -441,9 +441,9 @@
             "id": 20,
             "title": "KUAN / LA CONTEMPLACIÓN (LA VISIÓN)",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -464,9 +464,9 @@
             "id": 21,
             "title": "SHIH HO / MORDIENDO A TRAVÉS",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -487,9 +487,9 @@
             "id": 22,
             "title": "PI / LA GRACIA",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -510,9 +510,9 @@
             "id": 23,
             "title": "PO / LA DISPERSIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -533,9 +533,9 @@
             "id": 24,
             "title": "PU / EL RETORNO (EL CAMBIO DE TIEMPO",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -556,9 +556,9 @@
             "id": 25,
             "title": "WU WANG / LA INOCENCIA ( Lo Inesperado )",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -579,9 +579,9 @@
             "id": 26,
             "title": "TA CHU / EL PODER DOMINANTE DE LO GRANDE",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -602,9 +602,9 @@
             "id": 27,
             "title": "I / LAS COMISURAS DE LOS LABIOS (LA NUTRICIÓN)",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -625,9 +625,9 @@
             "id": 28,
             "title": "TA KUO / EL SOBREPESO DE LO GRANDE",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -648,9 +648,9 @@
             "id": 29,
             "title": "K’AN / LO INSONDABLE, EL AGUA",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
@@ -671,9 +671,9 @@
             "id": 30,
             "title": "LI / LO ADHERENTE, EL FUEGO",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -694,9 +694,9 @@
             "id": 31,
             "title": "HIEN / LA INFLUENCIA, EL CORTEJO",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -717,9 +717,9 @@
             "id": 32,
             "title": "HONG / LA DURACIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -740,9 +740,9 @@
             "id": 33,
             "title": "TUN / LA RETIRADA",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -763,9 +763,9 @@
             "id": 34,
             "title": "TA CHUANG / EL GRAN PODER",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -786,9 +786,9 @@
             "id": 35,
             "title": "CHIN / EL PROGRESO",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -809,9 +809,9 @@
             "id": 36,
             "title": "MING I/ EL OSCURECIMIENTO DE LA LUZ",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -832,9 +832,9 @@
             "id": 37,
             "title": "CHIA JEN / LA FAMILIA",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -855,9 +855,9 @@
             "id": 38,
             "title": "K'UEI / LA OPOSICIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -878,9 +878,9 @@
             "id": 39,
             "title": "CHIEN /EL OBSTÁCULO",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -901,9 +901,9 @@
             "id": 40,
             "title": "HSIEH / LA LIBERACIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
@@ -924,9 +924,9 @@
             "id": 41,
             "title": "SUN / LA MENGUA",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -947,9 +947,9 @@
             "id": 42,
             "title": "I CHI / EL AUMENTO",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -970,9 +970,9 @@
             "id": 43,
             "title": "KUAI, LA IRRUPCIÓN (La resolución)",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 1,
                 "inf_img": ""
             },
             "description": {
@@ -993,9 +993,9 @@
             "id": 44,
             "title": "KOU / VENIR AL ENCUENTRO",
             "hexagram": {
-                "superior": "",
+                "superior": 1,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -1016,9 +1016,9 @@
             "id": 45,
             "title": "TS'UI / LA REUNIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 8,
                 "inf_img": ""
             },
             "description": {
@@ -1039,9 +1039,9 @@
             "id": 46,
             "title": "SHENG / EL EMPUJE HACIA ARRIBA",
             "hexagram": {
-                "superior": "",
+                "superior": 8,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -1062,9 +1062,9 @@
             "id": 47,
             "title": "K'UN / EL AGOBIO (El agotamiento)",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
@@ -1085,9 +1085,9 @@
             "id": 48,
             "title": "CHING / EL POZO",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -1108,9 +1108,9 @@
             "id": 49,
             "title": "KO / LA REVOLUCIÓN ( La muda )",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -1131,9 +1131,9 @@
             "id": 50,
             "title": "TING / EL CALDERO",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -1154,9 +1154,9 @@
             "id": 51,
             "title": "CHEN / LA EXCITACIÓN (La Conmoción, el Trueno)",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 4,
                 "inf_img": ""
             },
             "description": {
@@ -1177,9 +1177,9 @@
             "id": 52,
             "title": "KEN / LA INMOVILIDAD, LA MONTAÑA",
             "hexagram": {
-                "superior": "",
+                "superior": 7,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -1200,9 +1200,9 @@
             "id": 53,
             "title": "CHIEN / EL DESARROLLO (El progreso gradual)",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -1223,9 +1223,9 @@
             "id": 54,
             "title": "KUEI MEI / LA DONCELLA CASADERA",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -1246,9 +1246,9 @@
             "id": 55,
             "title": "FENG /LA ABUNDANCIA",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -1269,9 +1269,9 @@
             "id": 56,
             "title": "LU / EL VIAJERO",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -1292,9 +1292,9 @@
             "id": 57,
             "title": "SUN / LO DOCIL ( Lo penetrante, el viento )",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 5,
                 "inf_img": ""
             },
             "description": {
@@ -1315,9 +1315,9 @@
             "id": 58,
             "title": "TUI / LO PLACENTERO, EL LAGO",
             "hexagram": {
-                "superior": "",
+                "superior": 2,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -1338,9 +1338,9 @@
             "id": 59,
             "title": "HUAN / LA DISOLUCIÓN (La dispersión)",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
@@ -1361,9 +1361,9 @@
             "id": 60,
             "title": "CHIEH / LA LIMITACION",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -1384,9 +1384,9 @@
             "id": 61,
             "title": "CHUNG FU / LA VERDAD INTERIOR",
             "hexagram": {
-                "superior": "",
+                "superior": 5,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 2,
                 "inf_img": ""
             },
             "description": {
@@ -1407,9 +1407,9 @@
             "id": 62,
             "title": "HSIAO KUO / LA PREPONDERANCIA DE LO PEQUEÑO",
             "hexagram": {
-                "superior": "",
+                "superior": 4,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 7,
                 "inf_img": ""
             },
             "description": {
@@ -1430,9 +1430,9 @@
             "id": 63,
             "title": "CHI CHI / DESPUES DE LA TERMINACIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 6,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 3,
                 "inf_img": ""
             },
             "description": {
@@ -1453,9 +1453,9 @@
             "id": 64,
             "title": "WE I CHI / ANTES DE LA TERMINACIÓN",
             "hexagram": {
-                "superior": "",
+                "superior": 3,
                 "sup_img": "",
-                "inferior": "",
+                "inferior": 6,
                 "inf_img": ""
             },
             "description": {
