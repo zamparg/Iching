@@ -4,6 +4,7 @@ let hexagrams
 
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
+let coinContainer=document.getElementById('coinContainer')
 let flipper = 1
 buttonCoins.addEventListener('click', flipCoins)
 
@@ -16,6 +17,7 @@ function flipCoins(e) {
     let moneda2 = Math.round(Math.random() * (3 - 2) + 2)
     let moneda3 = Math.round(Math.random() * (3 - 2) + 2)
     let sumatoria= moneda1+moneda2+moneda3
+    printCoin(moneda1,moneda2,moneda3)
     let flip ={
         'line': sumatoria==7||sumatoria==9?true:false,
         'mutable': sumatoria==6||sumatoria==9?true:false,
