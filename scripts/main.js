@@ -12,11 +12,9 @@ let question = {
 }
 
 function flipCoins(e) {
-    let moneda1 = Math.round(Math.random() * (3 - 2) + 2) // devuelve un valor entre 2 y 3
+    let moneda1 = Math.round(Math.random() * (3 - 2) + 2)
     let moneda2 = Math.round(Math.random() * (3 - 2) + 2)
     let moneda3 = Math.round(Math.random() * (3 - 2) + 2)
-    console.log(moneda1,moneda2, moneda3)
-    // función que pinte monedas
     let sumatoria= moneda1+moneda2+moneda3
     let flip ={
         'line': sumatoria==7||sumatoria==9?true:false,
