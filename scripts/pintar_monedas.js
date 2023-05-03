@@ -11,6 +11,6 @@ function printCoin(coin1,coin2,coin3) {
       }, "750");
       setTimeout(() => {
         coinContainer.innerHTML += moneda3;
-        buttonCoins.setAttribute('disabled', false)
+        buttonCoins.removeAttribute('disabled')
       }, "1500");
 }

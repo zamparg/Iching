@@ -74,9 +74,6 @@
 #navFooter{
     height: 4rem;
 }
-#buttonHexagram{
-    display: none;
-}
 .navbar{
     position: inherit !important;
 }
