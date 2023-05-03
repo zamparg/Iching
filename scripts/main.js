@@ -30,7 +30,8 @@ function flipCoins(e) {
     console.log(question)
     if(flipper==6){
         searchHexagram()
-        buttonHexagram.setAttribute('display', true)
+        buttonCoins.setAttribute('hidden', 'true')
+        buttonHexagram.removeAttribute('hidden')
     }
     flipper+=1
 }
