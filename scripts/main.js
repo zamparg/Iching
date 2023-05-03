@@ -17,8 +17,8 @@ function flipCoins(e) {
     let moneda3 = Math.round(Math.random() * (3 - 2) + 2)
     let sumatoria= moneda1+moneda2+moneda3
     let flip ={
-        'line': typeOfLine(sumatoria),
-        'mutable':mutable(sumatoria)
+        'line': sumatoria==7||sumatoria==9?true:false,
+        'mutable': sumatoria==6||sumatoria==9?true:false,
     }
     question.lines.push(flip)
     console.log(question)
@@ -27,23 +27,6 @@ function flipCoins(e) {
         searchHexagram()
     }
     flipper+=1
-}
-
-function mutable(coin) {
-    if (coin === 6 || coin === 9) {
-        return true
-    }
-    else {
-        return false
-    }
-}
-function typeOfLine(coin) {
-    if (coin === 7 || coin === 9) {
-        return true
-    }
-    else {
-        return false
-    }
 }
 
 function searchHexagram(){
@@ -72,6 +55,8 @@ function searchHexagram(){
     }
     question.hexagramMutable.hex= hexagrams.iching.find(el => el.hexagram.superior == question.hexagramMutable.sup.id &&
         el.hexagram.inferior == question.hexagramMutable.inf.id)
+
+        console.log(question)
 }
 
 async function fetchData(url){
@@ -81,7 +66,6 @@ async function fetchData(url){
         return datos})
     return dataAsync
 }
-
 async function start(){
     trigrams = await fetchData('./scripts/trigrams.json');
     hexagrams = await fetchData('./scripts/data.json')
