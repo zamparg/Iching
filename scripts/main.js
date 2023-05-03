@@ -15,6 +15,7 @@ let question = {
 }
 
 function flipCoins(e) {
+    buttonCoins.setAttribute('disabled', true)
     let moneda1 = Math.round(Math.random() * (3 - 2) + 2)
     let moneda2 = Math.round(Math.random() * (3 - 2) + 2)
     let moneda3 = Math.round(Math.random() * (3 - 2) + 2)
