@@ -5,9 +5,11 @@ let hexagrams
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
 let coinContainer=document.getElementById('coinContainer')
+let hexagramContainer= document.getElementById('hexagramContainer')
+let buttonHexagram=document.getElementById('buttonHexagram')
 let flipper = 1
 buttonCoins.addEventListener('click', flipCoins)
-
+buttonHexagram.addEventListener('click', reveal)
 let question = {
     'lines':[],
 }
@@ -18,6 +20,7 @@ function flipCoins(e) {
     let moneda3 = Math.round(Math.random() * (3 - 2) + 2)
     let sumatoria= moneda1+moneda2+moneda3
     printCoin(moneda1,moneda2,moneda3)
+    printLines(sumatoria)
     let flip ={
         'line': sumatoria==7||sumatoria==9?true:false,
         'mutable': sumatoria==6||sumatoria==9?true:false,
@@ -25,8 +28,8 @@ function flipCoins(e) {
     question.lines.push(flip)
     console.log(question)
     if(flipper==6){
-        buttonContainer.innerHTML=``
         searchHexagram()
+        buttonHexagram.setAttribute('display', true)
     }
     flipper+=1
 }
@@ -71,4 +74,17 @@ async function fetchData(url){
 async function start(){
     trigrams = await fetchData('./scripts/trigrams.json');
     hexagrams = await fetchData('./scripts/data.json')
+}
+
+function printLines(sumatoria){
+    let lineaCerrada=`<img src="" class="img-fluid" alt="línea cerrada">`
+    let lineaAbierta=`<img src="" class="img-fluid" alt="línea abierta">`
+    let lineaCerradaM=`<img src="" class="img-fluid" alt="línea cerrada mutable">`
+    let lineaAbiertaM=`<img src="" class="img-fluid" alt="línea abierta mutable">`
+    let line = ""
+    if(sumatoria==6){line= lineaAbiertaM}else if(sumatoria==8){line= lineaAbierta}else if (sumatoria==7){line= lineaCerrada} else {line= lineaCerradaM}
+    hexagramContainer.prepend(line)
+}
+function reveal(){
+    coinContainer.innerHTML="REVELACIÓN"
 }
