@@ -48,7 +48,7 @@
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
-#coinsSection{
+#coinsSection, #mainSection{
     background-image: url(https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125114/I_ching%20_trigramas/1412_hlu2mp.jpg);
     background-size: cover;
     display: flex;
