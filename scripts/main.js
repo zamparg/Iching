@@ -1,26 +1,3 @@
-/*
-    TIRAR MONEDAS: 
-    Devuelve un valor: 6,7,8,9
-    genera objeto => tipo de línea = true o false (si es completa o abierta).
-                    mutable= true o false
-                    a los 3---> guardar trigrama (requerimos json de trigramas con id)
-                    
-    obj = {
-        trigramaInf= id
-        trigramaSup = id
-        lineas ={
-            1:true o false si es mutable
-            2:
-            3:
-        }
-    }
-
-    filtrar en data.json por trigramas y traer objeto Hexagrama. Guardar.
-    funcion mutadora. 
-    guardar en otra variable el hexagrama mutado también. 
-    mostrar en DOM con boton de mutar -> que muestre el hexagrama mutado y permita volver. 
-*/
-
 start()
 let trigrams
 let hexagrams
@@ -29,7 +6,6 @@ let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
 let flipper = 1
 buttonCoins.addEventListener('click', flipCoins)
-
 
 let question = {
     'lines':[],
@@ -43,8 +19,8 @@ function flipCoins(e) {
     // función que pinte monedas
     let sumatoria= moneda1+moneda2+moneda3
     let flip ={
-        'line': typeOfLine(sumatoria),
-        'mutable':mutable(sumatoria)
+        'line': sumatoria==7||sumatoria==9?true:false,
+        'mutable': sumatoria==6||sumatoria==9?true:false,
     }
     question.lines.push(flip)
     console.log(question)
@@ -54,25 +30,6 @@ function flipCoins(e) {
     }
     flipper+=1
 }
-
-
-function mutable(coin) {
-    if (coin === 6 || coin === 9) {
-        return true
-    }
-    else {
-        return false
-    }
-}
-function typeOfLine(coin) {
-    if (coin === 7 || coin === 9) {
-        return true
-    }
-    else {
-        return false
-    }
-}
-
 
 function searchHexagram(){
     question.trigramInf = trigrams.trigrams.find(el => el.lines[0]== question.lines[0].line &&
@@ -100,6 +57,8 @@ function searchHexagram(){
     }
     question.hexagramMutable.hex= hexagrams.iching.find(el => el.hexagram.superior == question.hexagramMutable.sup.id &&
         el.hexagram.inferior == question.hexagramMutable.inf.id)
+
+        console.log(question)
 }
 
 async function fetchData(url){
@@ -109,9 +68,7 @@ async function fetchData(url){
         return datos})
     return dataAsync
 }
-
 async function start(){
     trigrams = await fetchData('./scripts/trigrams.json');
     hexagrams = await fetchData('./scripts/data.json')
 }
-console.log(question)
