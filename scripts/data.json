@@ -1672,59 +1672,52 @@
             ]
         }
     },
-    {
-        "id": 63,
-        "title": "CHI CHI / DESPUES DE LA TERMINACIÓN",
-        "hexagram": {
-            "superior": 6,
-            "inferior": 3
+            {
+            "id": 63,
+            "title": "CHI CHI / DESPUES DE LA TERMINACIÓN",
+            "hexagram": {
+                "superior": 6,
+                "inferior": 3
+            },
+            "description": {
+                "resume": "Este signo es el derivado del hexagrama N° 11, Tai, “la paz.” transición de la confusión al orden se ha terminado, ahora todo está minuciosamente en su lugar. Los trazos fuertes están en los lugares fuertes y los débiles en los lugares débiles. Es un aspecto muy favorable, aunque todavía ofrece materia para reflexionar. Es precisamente cuando se ha logrado el equilibrio perfecto que cada movimiento puede engendrar la aparición de la decadencia a partir del estado en el cual reina el orden. El único trazo fuerte que se dirige hacia arriba ha terminado el orden en todos los detalles y es seguido por los otros trazos que se mueven conforme a su naturaleza. Es así que aparece súbitamente el hexagrama N° 12, P’i, el estancamiento. Por eso este hexagrama indica las condiciones de un apogeo que hacen necesaria una extrema prudencia.",
+                "judgment": "“Después de la terminación. Éxito en asuntos pequeños. La perseverancia es ventajosa. Al comienzo fortuna, al final disturbios.”\n La transición de la vieja época a la nueva ya se ha completado. En principio, todo está ya puesto en orden y es solamente en los detalles que él éxito todavía no se ha logrado. Todas las cosas están encaminadas y marchan por ellas mismas. Eso conduce fácilmente a relajarse y a dejar que las cosas sigan su camino sin preocuparse por ellas en detalle. Esta negligencia es la raíz de todos los males. Ella provoca necesariamente la aparición de los síntomas de decadencia. Aquí se tiene la regla que rige el curso habitual de la historia. Pero quien la comprende puede evitar los efectos gracias a una perseverancia y a una prudencia infalibles.",
+                "image": "“Agua sobre el fuego: la imagen de la situación después de la terminación. Así el hombre noble reflexiona sobre la desgracia y se prepara por anticipado contra ella.”\n Cuando el agua está en un hervidor sobre el fuego, los dos elementos se relacionan entre si y de ellos resulta la creación de una energía (la producción de vapor). De todas maneras, la tensión que resulta de ello exige vigilancia. Si el agua desborda, el fuego se apaga y la energía se pierde. Si el calor es demasiado grande el agua se evapora y la energía se pierde en el aire. Los elementos puestos aquí en relación recíproca son en ellos enemigos entre sí. Sólo una gran prudencia puede prevenir los daños. Lo mismo ocurre en todas las coyunturas la vida donde las fuerzas se equilibran y obran armoniosamente y donde, como consecuencia, todo está aparentemente en un orden perfecto. En tales circunstancias, sólo el sabio puede reconocer los momentos que encierran peligro y sabe apartarlo gracias a las precauciones tomadas a tiempo.",
+                "lines": 
+                    [ {"tittle":"Nueve en la base significa: “Frena sus ruedas. Mete su cola en el agua. Sin reproches.”", 
+                    "description":"En los tiempos que siguen a una gran transición todo lleva hacia adelante, en la dirección del desarrollo y del progreso. Pero esta presión ávida de emprender no es buena y conduce seguramente a la pérdida y a la caída porque es una fuerza que apunta más allá de la meta. Es por eso que un carácter firme no se deja ganar por el vértigo general sino que frena a tiempo su carrera. Probablemente no evitará con ello ser afectado por las consecuencias perjudiciales del impulso general, pero éste solo lo alcanzará por detrás, como un zorro que habiendo ya atravesado el agua, solamente se moja la cola, la presión no puede infligirle gran daño, porque él puede adoptar la actitud correcta."}, 
+                    {"tittle":"⊙ Seis en el segundo lugar significa: “La mujer pierde el visillo de su carruaje. No corras tras él; al séptimo día lo encontrarás.”", 
+                    "description":"Cuando una mujer viajaba en un carruaje, llevaba un visillo para protegerse de las miradas de los curiosos. Se consideraba como una violación de las buenas costumbres si se perdía el visillo y se continuaba la ruta. Aplicado a la vida pública, eso significa que alguien, queriendo realizar una tarea, no recibe por parte de las autoridades competentes, la confianza necesaria para su protección personal. Es precisamente después de la terminación, que los gobernantes pueden mostrarse demasiado arrogantes y seguros de su valor, que ya no se preocupan por prestar atención a los talentos desconocidos.\n Eso generalmente produce un exceso de ambición. Si uno no encuentra el respaldo de sus superiores, uno busca por sí mismo la manera y el medio para realizar la tarea y así ponerse en valor. Pero tal actitud no es conveniente ni recomendada. “No corras detrás.” No te precipites hacia el mundo exterior, espera apaciblemente y desarrolla por ti mismo tu valor personal. Los tiempos cambian. Cuando las seis etapas del signo están superadas, entonces aparece una nueva era. Lo que pertenece a alguien no puede perderse con el tiempo, sino que es naturalmente suyo y sólo hay que esperarlo.\n ⊙ Trazo gobernante"}, 
+                    {"tittle":"Nueve en el tercer lugar significa: “El ilustre antepasado castiga el país del diablo. Al cabo de tres años lo conquista. No hay que emplear gente vulgar.”",
+                    "description":"El “ilustre antepasado” es el título dinástico del emperador Wu Ting de la dinastía Yin. Después de haber puesto su imperio en orden con mano vigorosa, realizó largas guerras coloniales con el fin de someter las zonas fronterizas del norte, ocupadas por los hunos, que con sus incursiones constituían una constante amenaza.\n La situación indicada es que después de la terminación, cuando se ha impuesto un nuevo poder y que en el interior todo está en orden, comienza a manifestarse una cierta necesidad de expansión colonial. En una empresa semejante, hay que prever en general largos combates. Pero allí es importante aplicar una política colonial apropiada. No se debe considerar al territorio agriamente conquistado solo como un centro de abastecimiento para ciertas personas de aquello que ya no consiguen en su tierra natal, pero que es lo suficientemente bueno en la colonia. Tal actitud arruina por anticipado todos los éxitos. Eso es válido tanto en las pequeñas como en las grandes cosas, puesto que no son solamente los estados en desarrollo que tienen una política colonial. Toda empresa ambiciosa comporta con ella un impulso hacia la expansión, con todos los peligros que le son asociados."}, 
+                    {"tittle":"Seis en el cuarto lugar significa: “Las mejores vestimentas se vuelven harapos. Sé cuidadoso durante todo el día.”", 
+                    "description":"En tiempos de cultura floreciente, pueden ocurrir convulsiones ocasionales que ponen al descubierto males ocultos de la sociedad y que provocan en principio una emoción general. Sin embargo, como la situación global es favorable, esos males pueden ser superados y disimulados al público. Después todo desaparece de la memoria y aparentemente reina otra vez la paz habitual. Sin embargo, el hombre inteligente toma esos incidentes como serias advertencias que no debe descuidar. Es la única manera de evitar las malas consecuencias."}, 
+                    {"tittle":"Seis en el quinto lugar significa: “El vecino del Este que mata un buey no alcanza la felicidad verdadera que puede esperar el vecino del Oeste con su pequeña ofrenda.”", 
+                    "description":"En las épocas que siguen a la terminación, la actitud religiosa está influenciada por las disposiciones del alma. La simplicidad de las viejas formas son reemplazadas, en el culto divino, por ritos cada vez más elaborados y por una pompa exterior cada vez más grande. Pero este despliegue de fasto está desprovisto de seriedad interior. El capricho humano remplaza la observación escrupulosa de la voluntad divina. Mientras que el hombre ve lo que aparece ante sus ojos, Dios mira en el corazón. Por eso es que el sacrificio simple ofrecido con piedad es fuente de más grandes bendiciones que un culto más fastuoso pero frío."}, 
+                    {"tittle":"Seis en la cima significa: “Mete la cabeza en el agua. Peligro.”", 
+                    "description":"A guisa de conclusión, se agrega aquí el consejo de que después de haber cruzado la corriente no es necesario volver a meter la cabeza en el agua a menos que uno sea tan imprudente como para intentar regresar. Mientras que se vaya derecho adelante y que no se mire hacia atrás, escapará al peligro. Pero hay algo fascinante en permanecer inmóvil y mirar hacia atrás el peligro que se ha superado. Una admiración de sí mismo tan frívola no conduce a nada agradable. Si uno se expone así al peligro, sin decidir finalmente de avanzar sin detenerse, uno será víctima de ese peligro."}
+                ]
+            }
         },
-        "description": {
-            "resume": "",
-            "judgment": "",
-            "image": "",
-            "lines": [
-                          {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""}
-            ]
-        }
-    },
-    {
-        "id": 64,
-        "title": "WE I CHI / ANTES DE LA TERMINACIÓN",
-        "hexagram": {
-            "superior": 3,
-            "inferior": 6
-        },
-        "description": {
-            "resume": "",
-            "judgment": "",
-            "image": "",
-            "lines": [
-                          {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""},
-                    {"tittle":"",
-                "description":""}
-            ]
-        }
-    }
-]
-}
+        {
+            "id": 64,
+            "title": "WE I CHI / ANTES DE LA TERMINACIÓN",
+            "hexagram": {
+                "superior": 3,
+                "inferior": 6},
+            "description": {
+                "resume": "Este hexagrama indica una época de transición todavía no completa del desorden al orden. Sin duda, el cambio ya está preparado : todas las líneas del trigrama superior se encuentran en efecto relacionadas con las del trigrama inferior. Sin embargo ellas no están todavía en su lugar. Mientras que en el hexagrama precedente es análogo al otoño que constituye la transición del verano al invierno, el hexagrama presente es semejante a la primavera que lleva del estancamiento del invierno a la fecundidad del verano. Es sobre esta perspectiva que se cierra el Libro de los Cambios.",
+                "judgment": "“Antes de la terminación. Éxito. Pero si el pequeño zorro mete su cola en el agua antes de completar el cruce, no hay nada que sea ventajoso.”\n Las condiciones son difíciles. La tarea es grande y llena de responsabilidades. Se trata nada menos que de llevar el mundo de la confusión al orden. Pero es una tarea que promete éxito, ya que su meta es unir a las fuerzas por ahora dispersas en diferentes direcciones. Para lograrlo, solo hay que moverse cautelosamente como un zorro joven que cruza sobre el hielo. En la China, la prudencia del zorro que marcha sobre el hielo es proverbial. Sus oídos están permanentemente alertas a los crujidos del hielo y con todo cuidado busca los lugares más seguros. Un zorro joven, que todavía no conoce esta prudencia, avanza intrépidamente y puede ocurrir que se caiga al agua cuando ya casi ha terminado de atravesar, mojándose la cola. Naturalmente, todos los esfuerzos habrán sido en vano. Igualmente, en los momentos que preceden el cumplimiento de una tarea, la reflexión y la cautela son las condiciones fundamentales del éxito.",
+                "image": "“Fuego sobre el agua. La imagen de las condiciones antes del cumplimiento. El hombre noble es cuidadoso en diferenciar las cosas con el fin de que cada una encuentre su lugar.”\n Cuando el fuego, que tiende a elevarse, está arriba y el agua, que tiende a descender, está abajo, sus efectos van en sentido diferente y permanecen ambos sin relación. Si deseamos lograr algo debemos primero investigar la naturaleza de las fuerzas en cuestión y luego asignarles a cada una el lugar apropiado. Si se las dispone en el lugar correcto, ellas producirán el efecto deseado y el cumplimiento será realizado. Pero, para poder disponer de las fuerzas exteriores de una manera apropiada, es necesario ante todo de adoptar sí mismo el punto de vista correcto. Únicamente a partir de ese momento se podrá actuar correctamente.",
+                "lines": [
+                {"tittle":"Seis en la base significa: “Mete su cola en el agua. Humillación.”",
+                "description":"En tiempos de desorden es tentador de avanzar con toda la prisa posible para realizar algo visible. Pero este entusiasmo lleva solamente al fracaso y a la humillación mientras si no ha llegado el momento oportuno de actuar. En tal momento, es pertinente ahorrarse, por medio de una actitud de reserva, la humillación del fracaso.\n Debe notarse la diferencia entre esta situación con relación a la figurada por el primer trazo del hexagrama precedente, donde el zorro mete la cola en el agua pero su experiencia le evita mayores percances."},
+                {"tittle":"Nueve en el segundo lugar significa: “Frena sus ruedas. La perseverancia trae buena fortuna.”",
+                "description":"Aquí igualmente el tiempo de actuar todavía no ha llegado. Pero la paciencia necesaria no es una espera perezosa que perdura de día en día. Tal actitud no lleva a lo largo a ningún éxito. Pero en cambio hay que desarrollar en nosotros mismos las fuerzas que nos hagan avanzar. Se debe tener, de alguna manera, un carro listo para efectuar el pasaje. Pero todavía uno lo debe frenar. La paciencia, en el sentido más elevado, es una fuerza contenida. Es por eso que no hay que adormecerse y perder la meta de vista. Si uno se mantiene fuerte y firme en su resolución, al final todo irá bien."},
+                {"tittle":"Seis en el tercer lugar significa: “Antes de la terminación el ataque trae desgracia. Es ventajoso atravesar las grandes aguas.”", "description":"La hora de la travesía ha llegado. Pero no se tiene la fuerza de realizar el pasaje. Si intentara forzarlo se iría hacia el fracaso puesto que el colapso sería inevitable. ¿Qué hacer entonces? Se debe crear una nueva situación, se deben atraer energías asistentes capaces y con ellas dar el paso decisivo – atravesar las grandes aguas. Entonces la realización completa será posible."},
+                {"tittle":"Nueve en el cuarto lugar significa: “La perseverancia trae buena fortuna. Los remordimientos desaparecen. Conmoción para castigar el país del diablo. Durante tres años se es premiado con grandes reinos.”", "description":"Ahora es la época del combate. Es necesario que el pasaje sea realizado. Hay que afirmarse completamente en la resolución; tal actitud procura la fortuna. Todas las dudas que pueden levantarse en estos graves momentos de combate deben ser silenciadas. Se trata de una lucha ardiente para sacudir y castigar el país del diablo, las fuerzas de la decadencia. Pero la lucha tiene también su recompensa. Ahora es el momento de poner los fundamentos del poder y de la soberanía para el futuro."},
+                {"tittle":"⊙ Seis en el quinto lugar significa: “La perseverancia trae buena fortuna. Sin remordimientos. La luz de un hombre noble es verdadera. Fortuna.”", "description":"Se gana la victoria. La fuerza de la firmeza no ha sido reducida al fracaso. Todo va bien. Se superaron todas las dudas. El éxito ha justificado la acción. La luz de una personalidad superior brilla de nuevo y hace sentir su influencia sobre los hombres que creen en ella y se reúnen a su alrededor. La nueva era ha llegado y con ella la fortuna. Igual que el sol después de la lluvia brilla con doble belleza o que el bosque después del incendio reverdece con una frescura acrecentada a partir de los sus restos carbonizados, el esplendor de la nueva era se aumenta por el contraste que forma con la miseria de la vieja época.\n ⊙ Trazo gobernante"},
+                {"tittle":"Nueve en la cima significa: “Se bebe vino en plena confianza. Sin reproches. Pero si uno se hace mojar la cabeza, la perderá en verdad.”", "description":"Antes de completar la realización, en el umbral de los nuevos tiempos, el hombre se encuentra reunido en plena confianza mutua con los suyos y pasa el tiempo de espera bebiendo felizmente. Como la nueva era está en el umbral de la puerta, no hay en ello ningún reproche. Pero hay que ser cuidadoso en mantener la justa medida. Si en su exceso un hombre se deja llevar por la ebriedad, pierde por su desmesura lo que la situación tiene de favorable.\n Nota: El hexagrama “después de la terminación” describía la transición progresiva de un tiempo de elevación a un tiempo de estancamiento pasando por una culminación de la civilización. El hexagrama “antes de la terminación” describe igualmente la transición del caos al orden. Este hexagrama aparece al fin del libro del “Libro de los Cambios.” Con él se señala que cada final es un nuevo comienzo, dando así la esperanza a los hombres. El “Libro de los Cambios” es un libro de futuro."}
+                ]
+            }
+]}
