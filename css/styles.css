@@ -77,3 +77,8 @@
 .navbar{
     position: inherit !important;
 }
+#panda{
+  translate: 36rem;
+  transform: translateY(24rem);
+  width: 3rem;
+}
