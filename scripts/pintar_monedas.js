@@ -1,4 +1,4 @@
-function printCoin(coin1,coin2,coin3) {
+function printCoin(coin1,coin2,coin3, sumatoria) {
     coinContainer.innerHTML =``
     let imageCoin2 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125326/I_ching%20_trigramas/s-l500-removebg-preview_a9kjcj.png"
     let imageCoin3 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125331/I_ching%20_trigramas/s-l500__1_-removebg-preview_lfsw3k.png"
@@ -12,5 +12,6 @@ function printCoin(coin1,coin2,coin3) {
       setTimeout(() => {
         coinContainer.innerHTML += moneda3;
         buttonCoins.removeAttribute('disabled')
+        printLines(sumatoria)
       }, "1500");
 }
