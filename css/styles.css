@@ -1,21 +1,26 @@
-#nav-img{
-    width: 3rem;
-    background-color: white;
-    border-radius: 99%;
+* {
+  font-family: "JetBrains Mono", monospace;
 }
-#buttonCoins{
+
+#nav-img {
+  width: 3rem;
+  background-color: white;
+  border-radius: 99%;
+}
+
+#buttonCoins {
   margin: 2rem;
   align-items: center;
   appearance: none;
   background-color: #FCFCFD;
   border-radius: 4px;
   border-width: 0;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
   box-sizing: border-box;
   color: #36395A;
   cursor: pointer;
   display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
+  font-family: "JetBrains Mono", monospace;
   height: 48px;
   justify-content: center;
   line-height: 1;
@@ -26,12 +31,12 @@
   position: relative;
   text-align: left;
   text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
+  transition: box-shadow .15s, transform .15s;
   -webkit-user-select: none;
   user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
-  will-change: box-shadow,transform;
+  will-change: box-shadow, transform;
   font-size: 18px;
 }
 
@@ -48,32 +53,53 @@
   box-shadow: #D6D6E7 0 3px 7px inset;
   transform: translateY(2px);
 }
-#coinsSection, #mainSection{
-    background-image: url(https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125114/I_ching%20_trigramas/1412_hlu2mp.jpg);
-    background-size: cover;
-    display: flex;
-    width: 100%;
-    height: 87.5vh;
-    flex-direction: column;
-    align-items: center;
+
+main {
+  background-image: url(https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125114/I_ching%20_trigramas/1412_hlu2mp.jpg);
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height: 87.5vh;
+  flex-direction: column;
+  align-items: center;
 }
-#coinContainer{
-    display: flex;
-    justify-items: center;
-    width: 35rem;
-    height: 30rem;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+
+#buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.coins>img{
-    width: 12rem;
-    margin: 1rem;
+
+#coinContainer {
+  display: flex;
+  justify-items: center;
+  width: 35rem;
+  height: 30rem;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
 }
-#navFooter{
-    height: 4rem;
+
+.coins>img {
+  width: 12rem;
+  margin: 1rem;
 }
-.navbar{
-    position: inherit !important;
+
+#navFooter {
+  height: 4rem;
+}
+
+.navbar {
+  position: inherit !important;
+}
+
+#panda {
+  translate: 36rem;
+  transform: translateY(24rem);
+  width: 3rem;
+}
+
+.hide {
+  display: none !important;
 }
