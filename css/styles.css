@@ -82,3 +82,7 @@
   transform: translateY(24rem);
   width: 3rem;
 }
+
+.hide{
+  display: none;
+}
