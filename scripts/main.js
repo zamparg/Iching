@@ -2,6 +2,9 @@ start()
 let trigrams
 let hexagrams
 
+let resultContainer=document.getElementById('resultContainer')
+let mutContainer=document.getElementById('mutContainer')
+let coinSection = document.getElementById('coinSection')
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
 let coinContainer=document.getElementById('coinContainer')
@@ -96,5 +99,11 @@ function printLines(sumatoria){
     console.log(line)
 }
 function reveal(){
-    coinContainer.innerHTML="REVELACIÓN"
+    coinSection.classList('hide')
+    let button = `<button onclick="mutar()">VER HEXAGRAMA MUTADO</button>`
+    resultContainer.innerHTML="REVELACIÓN"
+}
+
+function mutar(){
+
 }
