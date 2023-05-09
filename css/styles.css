@@ -46,7 +46,7 @@ body{
   will-change: box-shadow, transform;
   font-size: 18px;
 }
-#intro{
+#intro, #resultContentContainer{
   padding: 2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
