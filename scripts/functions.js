@@ -95,10 +95,10 @@ function reveal(){
     console.log(question)
     coinSection.classList.add('hide')
     resultSection.classList.toggle('hide')
-    pintarHexagramas(resultContainer, question.trigramSup, question.trigramInf)
+    pintarHexagramas(resultImgContainer, question.trigramSup, question.trigramInf)
     pintarInfo(resultContentContainer, question.hexagram)
     pintarLineasMut(resultContentContainer,question)
-    pintarHexagramas(mutContainer, question.hexagramMutable.sup, question.hexagramMutable.sup)
+    pintarHexagramas(mutImgContainer, question.hexagramMutable.sup, question.hexagramMutable.sup)
     pintarInfo(mutContentContainer, question.hexagramMutable.hex)
     let button = `<button onclick="mutar(e)">VER HEXAGRAMA MUTADO</button>`
 }
@@ -156,6 +156,12 @@ function pintarLineasMut(container, question){
     }
 
 }
-
+function negritear(texto){
+    let regEx=/\w+$\:/gi
+    texto.match(/[.]*?“$/gi)
+}
+function cursivear(texto){
+    texto.match(/^\“[.]*?”$/gi)
+}
 //Result Section tiene que tener clase hide en principio
 //mut container también. 
