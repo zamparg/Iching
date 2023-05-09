@@ -7,6 +7,8 @@ let hexagrams
 
 let resultContainer=document.getElementById('resultContainer')
 let mutContainer=document.getElementById('mutContainer')
+let resultContentContainer=document.getElementById('resultContentContainer')
+let mutContentContainer=document.getElementById('mutContentContainer')
 let coinSection = document.getElementById('coinsSection')
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
