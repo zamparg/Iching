@@ -13,6 +13,7 @@ let buttonCoins=document.getElementById('buttonCoins')
 let coinContainer=document.getElementById('coinContainer')
 let hexagramContainer= document.getElementById('hexagramContainer')
 let buttonHexagram=document.getElementById('buttonHexagram')
+let buttonMut=document.getElementById('buttonMut')
 let flipper = 1
 
 //LISTENERS
@@ -22,6 +23,7 @@ buttonHexagram.addEventListener('click', reveal)
 let question = {
     'lines':[],
 }
+buttonMut.addEventListener('click', mutar)
 
 
 // FUNCIONES
