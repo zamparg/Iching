@@ -38,7 +38,6 @@ function printLines(sumatoria){
     let line =""
     if(sumatoria==6){line= lineaAbiertaM}else if(sumatoria==8){line= lineaAbierta}else if (sumatoria==7){line= lineaCerrada} else {line= lineaCerradaM}
     hexagramContainer.prepend(line)
-    console.log(line)
 }
 
 // Pintar monedas
@@ -93,21 +92,70 @@ function searchHexagram(){
 
 //Revelar Resultados
 function reveal(){
+    console.log(question)
     coinSection.classList.add('hide')
     resultSection.classList.toggle('hide')
-    
-    let button = `<button onclick="mutar()">VER HEXAGRAMA MUTADO</button>`
-    resultContainer.innerHTML="REVELACIÓN"
+    pintarHexagramas(resultContainer, question.trigramSup, question.trigramInf)
+    pintarInfo(resultContainer, question.hexagram)
+    pintarLineasMut(resultContainer,question)
+    pintarHexagramas(mutContainer, question.hexagramMutable.sup, question.hexagramMutable.sup)
+    pintarInfo(mutContainer, question.hexagramMutable.hex)
+    let button = `<button onclick="mutar(e)">VER HEXAGRAMA MUTADO</button>`
 }
 
 //Ver resultados mutados y originales
 function mutar(){
     resultContainer.classList.toggle('hide')
     mutContainer.classList.toggle('hide')
+    if(buttonMut.textContent=='VER HEXAGRAMA MUTADO'){
+        buttonMut.textContent='VER HEXAGRAMA ORIGINAL'
+    }else{
+        buttonMut.textContent='VER HEXAGRAMA MUTADO'
+    }
+    window.scrollTo({
+        top:0, behavior:"smooth"
+      })
 }
 
 
+//pintar hexagramas
+function pintarHexagramas(container, trigramSup,trigramInf){
+    container.innerHTML+=`
+    <div class="d-flex flex-column" >
+        <img src="${trigramSup.image_original_colors}" alt="tri sup" id="img__trig__sup"/>
+        <img src="${trigramInf.image_original_colors}" alt="tri inf" id="img__trig__inf"/>
+        <p class="text-center"><em>${trigramSup.image_name} sobre ${trigramInf.image_name}</em></p>
+    </div>
+    `
+}
 
+function pintarInfo(container, data) {
+    container.innerHTML += ` <h2>Hexagrama ${data.id}: ${data.title}</h2>
+            <p>${data.description.resume}</p>
+
+            <h3>Juicio:</h3>
+            <p>${data.description.judgment}</p>
+
+            <h3>Imagen:</h3>
+            <p>${data.description.image}</p>`
+}
+
+function pintarLineasMut(container, question){
+    container.innerHTML+=`<h3>Las Lineas:</h3>`
+    for (let i = 0; i <=5 ; i++) {
+        if(question.lines[i].mutable){
+            container.innerHTML+=`<h4>${question.hexagram.description.lines[i].tittle}</h4>
+            <p>${question.hexagram.description.lines[i].description}</p>`
+        }
+    }
+    if(!question.lines.some(line => line.mutable==true)){
+        question.hexagram.description.lines.forEach(element => {
+            container.innerHTML+=`<h4>${element.tittle}</h4>
+            <p>${element.description}</p>`
+        });
+    }
+
+}
 
 //Result Section tiene que tener clase hide en principio
 //mut container también. 
