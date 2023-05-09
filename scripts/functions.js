@@ -96,10 +96,10 @@ function reveal(){
     coinSection.classList.add('hide')
     resultSection.classList.toggle('hide')
     pintarHexagramas(resultContainer, question.trigramSup, question.trigramInf)
-    pintarInfo(resultContainer, question.hexagram)
-    pintarLineasMut(resultContainer,question)
+    pintarInfo(resultContentContainer, question.hexagram)
+    pintarLineasMut(resultContentContainer,question)
     pintarHexagramas(mutContainer, question.hexagramMutable.sup, question.hexagramMutable.sup)
-    pintarInfo(mutContainer, question.hexagramMutable.hex)
+    pintarInfo(mutContentContainer, question.hexagramMutable.hex)
     let button = `<button onclick="mutar(e)">VER HEXAGRAMA MUTADO</button>`
 }
 
@@ -121,10 +121,10 @@ function mutar(){
 //pintar hexagramas
 function pintarHexagramas(container, trigramSup,trigramInf){
     container.innerHTML+=`
-    <div class="d-flex flex-column" >
-        <img src="${trigramSup.image_original_colors}" alt="tri sup" id="img__trig__sup"/>
-        <img src="${trigramInf.image_original_colors}" alt="tri inf" id="img__trig__inf"/>
-        <p class="text-center"><em>${trigramSup.image_name} sobre ${trigramInf.image_name}</em></p>
+    <div id="triImgCont" class="d-flex flex-column" >
+        <img class="triImg" src="${trigramSup.image_original_colors}" alt="tri sup" id="img__trig__sup"/>
+        <img class="triImg" src="${trigramInf.image_original_colors}" alt="tri inf" id="img__trig__inf"/>
+        <p class="text-center" style="font-size: 1.5rem;"><em>${trigramSup.image_name} sobre ${trigramInf.image_name}</em></p>
     </div>
     `
 }

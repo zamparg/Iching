@@ -84,6 +84,15 @@ main {
   align-items: center;
 }
 
+#triImgCont{
+  margin: 2rem 0 0rem;
+  width: 20rem;
+}
+
+.triImg{
+  margin: -4.5rem 0;
+}
+
 #buttonContainer {
   display: flex;
   align-items: center;
