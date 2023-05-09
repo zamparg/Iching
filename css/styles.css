@@ -1,9 +1,13 @@
 * {
   font-family: "JetBrains Mono", monospace;
 }
+
 #tittlenav{
   margin: 0 !important;
   font-size: 1.8rem !important;
+}
+body{
+  min-height: 100vh;
 }
 #nav-img {
   width: 3rem;
