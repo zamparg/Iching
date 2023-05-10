@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="d-flex flex-column justify-content-between">
  
     <header>
       <nav class="navbar navbar-dark bg-dark">
@@ -20,7 +20,7 @@
             aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <h1 class="navbar-brand fs-4">I Ching</h1>
+          <h1 id="tittlenav" class="navbar-brand fs-4">I Ching</h1>
           <img id="nav-img"
             src="https://res.cloudinary.com/dhvz93a4h/image/upload/v1683032117/I_ching%20_trigramas/pngwing.com_mdwq9n.png"
             alt="">
@@ -36,9 +36,9 @@
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
-                </li>
+                </li> -->
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
@@ -47,23 +47,15 @@
                   <ul class="dropdown-menu dropdown-menu-dark">
                     <li><a class="dropdown-item" href="#">Historia</a></li>
                     <li><a class="dropdown-item" href="#">Más información</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                   </ul>
                 </li>
               </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </div>
       </nav>
     </header> 
-    <main>
+    <main class="flex-grow-1">
     <section id="coinsSection">
       <div id="buttonContainer">
         <button id="buttonCoins">TIRAR MONEDAS</button>
@@ -76,59 +68,26 @@
         </div>
       </div>
     </section>
-    <section id="resultSection">
+    <section id="resultSection" class="hide">
       <div id="resultContainer" class="">
-        <div id="revelacion">
-          <div>
-            <img src="" alt="tri sup" />
-            <img src="" alt="tri inf" />
-          </div>
-
-
-          <!-- <h2>titulo de hexagrama</h2>
-            <p>resumen hexa</p> -->
-
-          <h2>Juicio:</h2>
-          <!-- <p>texto jucio</p> -->
-
-          <h2>Imagen:</h2>
-          <!-- <p>texto imagen descr</p> -->
-          <div id="Lineas">
-            <h2>Las Lineas:</h2>
-            <!-- <h3>titulo linea</h3>
-                <p>descripción linea</p> -->
-          </div>
-        </div>
+        <div id="resultImgContainer"></div>
+        <div id="resultContentContainer"></div>
       </div>
-      <div id="mutContainer" class="">
-        <div>
-          <img src="" alt="tri sup" />
-          <img src="" alt="tri inf" />
-        </div>
-
-        <!-- <h2>titulo de hexagrama</h2>
-            <p>resumen hexa</p> -->
-
-        <h2>Juicio:</h2>
-        <!-- <p>texto jucio</p> -->
-
-        <h2>Imagen:</h2>
-        <!-- <p>texto imagen descr</p> -->
-        <div id="Lineas">
-          <h2>Las Lineas:</h2>
-          <!-- <h3>titulo linea</h3>
-                <p>descripción linea</p> -->
-        </div>
+      <div id="mutContainer" class="hide">
+        <div id="mutImgContainer"></div>
+        <div id="mutContentContainer"></div>
       </div>
+      <button id="buttonMut">VER HEXAGRAMA MUTADO</button>
     </section>
   </main>
     <footer>
       <nav id="navFooter" class="navbar bg-dark">
       </nav>
     </footer>
-
+    
     <script src="./scripts/functions.js"></script>
     <script src="./scripts/main.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
     integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
     crossorigin="anonymous"></script>

@@ -7,12 +7,17 @@ let hexagrams
 
 let resultContainer=document.getElementById('resultContainer')
 let mutContainer=document.getElementById('mutContainer')
+let resultContentContainer=document.getElementById('resultContentContainer')
+let mutContentContainer=document.getElementById('mutContentContainer')
+let resultImgContainer=document.getElementById('resultImgContainer')
+let mutImgContainer=document.getElementById('mutImgContainer')
 let coinSection = document.getElementById('coinsSection')
 let buttonContainer=document.getElementById('buttonContainer')
 let buttonCoins=document.getElementById('buttonCoins')
 let coinContainer=document.getElementById('coinContainer')
 let hexagramContainer= document.getElementById('hexagramContainer')
 let buttonHexagram=document.getElementById('buttonHexagram')
+let buttonMut=document.getElementById('buttonMut')
 let flipper = 1
 
 //LISTENERS
@@ -22,6 +27,7 @@ buttonHexagram.addEventListener('click', reveal)
 let question = {
     'lines':[],
 }
+buttonMut.addEventListener('click', mutar)
 
 
 // FUNCIONES
