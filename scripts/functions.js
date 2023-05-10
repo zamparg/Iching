@@ -158,7 +158,7 @@ function pintarLineasMut(container, question){
 }
 function negritear(texto){
     let regEx=/\w+$\:/gi
-    texto.match(/[.]*?“$/gi)
+    regEx.match(texto)
 }
 function cursivear(texto){
     texto.match(/^\“[.]*?”$/gi)
