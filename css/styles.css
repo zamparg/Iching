@@ -46,7 +46,7 @@ body{
   will-change: box-shadow, transform;
   font-size: 18px;
 }
-#intro, #resultContentContainer{
+#intro, #resultContentContainer, #mutContentContainer{
   padding: 2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -75,6 +75,15 @@ body{
   transform: translateY(2px);
 }
 
+#hexagramContainer{
+  background-color: #765e2e;
+  background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+  background-size: contain;
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
 main {
   background-image: url(https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125114/I_ching%20_trigramas/1412_hlu2mp.jpg);
   background-size: cover;
@@ -87,6 +96,31 @@ main {
 #triImgCont{
   margin: 2rem 0 0rem;
   width: 20rem;
+  background-color: #60553c;
+  background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+  border-radius: 2rem;
+  padding-top: 1rem;
+}
+
+#resultImgContainer, #mutImgContainer{
+  display: flex;
+  justify-content: center;
+}
+
+em{
+  color: #e2d2b3;
+}
+
+h2, h3, h4{
+  font-weight: 700;
+  background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+  background-color: #e1d6ba8f;
+  border-radius: .5rem;
+  padding: .4rem;
+}
+
+h4{
+  font-style: italic;
 }
 
 .triImg{
@@ -108,6 +142,9 @@ main {
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
+  background-color: #585448;
+  background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+  border-radius: 2rem;
 }
 
 .coins>img {
@@ -131,3 +168,37 @@ main {
 .hide {
   display: none !important;
 }
+
+/*GIRO DE MONEDAS PA TRABAJAR*/
+
+/* .side-a {
+  z-index: 100;
+}
+.side-b {
+  -webkit-transform: rotateY(-180deg);
+}
+#coin {
+  transition: -webkit-transform 1s ease-in;
+  -webkit-transform-style: preserve-3d;
+}
+#coin.heads {
+  -webkit-animation: flipHeads 3s ease-out forwards;
+  -moz-animation: flipHeads 3s ease-out forwards;
+    -o-animation: flipHeads 3s ease-out forwards;
+       animation: flipHeads 3s ease-out forwards;
+}
+#coin.tails {
+  -webkit-animation: flipTails 3s ease-out forwards;
+  -moz-animation: flipTails 3s ease-out forwards;
+    -o-animation: flipTails 3s ease-out forwards;
+       animation: flipTails 3s ease-out forwards;
+}
+
+@-webkit-keyframes flipHeads {
+  from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
+  to { -webkit-transform: rotateY(1800deg); -moz-transform: rotateY(1800deg); transform: rotateY(1800deg); }
+}
+@-webkit-keyframes flipTails {
+  from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
+  to { -webkit-transform: rotateY(1980deg); -moz-transform: rotateY(1980deg); transform: rotateY(1980deg); }
+} */
