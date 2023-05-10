@@ -144,24 +144,30 @@ function pintarLineasMut(container, question){
     container.innerHTML+=`<h3>Las Lineas:</h3>`
     for (let i = 0; i <=5 ; i++) {
         if(question.lines[i].mutable){
-            container.innerHTML+=`<h4>${question.hexagram.description.lines[i].tittle}</h4>
+            let texto=question.hexagram.description.lines[i].tittle
+            container.innerHTML+=`<h4><b>${negritear(texto)}</b><i>${cursivear(texto)}</i></h4>
             <p>${question.hexagram.description.lines[i].description}</p>`
         }
     }
     if(!question.lines.some(line => line.mutable==true)){
         question.hexagram.description.lines.forEach(element => {
-            container.innerHTML+=`<h4>${element.tittle}</h4>
+            container.innerHTML+=`<h4><b>${negritear(element.tittle)}</b><i>${cursivear(element.tittle)}</i></h4>
             <p>${element.description}</p>`
         });
     }
 
 }
 function negritear(texto){
-    let regEx=/\w+$\:/gi
-    texto.match(/[.]*?“$/gi)
+    let regEx=/.+\:/gi
+    let negrito=texto.match(regEx)
+    return negrito
 }
 function cursivear(texto){
-    texto.match(/^\“[.]*?”$/gi)
+    let regEx=/\“.+/gi
+    let cursiva=texto.match(regEx)
+    return cursiva
 }
 //Result Section tiene que tener clase hide en principio
 //mut container también. 
+
+//question.hexagram.description.lines[0].tittle
