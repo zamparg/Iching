@@ -2,13 +2,20 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+#tittlenav{
+  margin: 0 !important;
+  font-size: 1.8rem !important;
+}
+body{
+  min-height: 100vh;
+}
 #nav-img {
   width: 3rem;
   background-color: white;
   border-radius: 99%;
 }
 
-#buttonCoins {
+#buttonCoins, #buttonHexagram, #buttonMut {
   margin: 2rem;
   align-items: center;
   appearance: none;
@@ -39,7 +46,21 @@
   will-change: box-shadow, transform;
   font-size: 18px;
 }
-
+#intro, #resultContentContainer{
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6rem;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.4);
+}
 #buttonCoins:focus {
   box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
 }
@@ -59,9 +80,17 @@ main {
   background-size: cover;
   display: flex;
   width: 100%;
-  height: 87.5vh;
   flex-direction: column;
   align-items: center;
+}
+
+#triImgCont{
+  margin: 2rem 0 0rem;
+  width: 20rem;
+}
+
+.triImg{
+  margin: -4.5rem 0;
 }
 
 #buttonContainer {
@@ -94,10 +123,9 @@ main {
   position: inherit !important;
 }
 
-#panda {
-  translate: 36rem;
-  transform: translateY(24rem);
-  width: 3rem;
+#tittleIntro{
+  margin: 0rem 0rem 2rem;
+  font-weight: 600;
 }
 
 .hide {

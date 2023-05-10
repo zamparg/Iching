@@ -21,6 +21,24 @@ function flipCoins(e) {
     }
     flipper+=1
 }
+//Imprimir las líneas
+function printLines(sumatoria){
+    const lineaCerrada = document.createElement('img')
+    const lineaAbierta = document.createElement('img')
+    const lineaCerradaM = document.createElement('img')
+    const lineaAbiertaM = document.createElement('img')
+    lineaCerrada.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/continua-removebg-preview_ywj32x_lmaqvz.png")
+    lineaCerrada.setAttribute('alt',"línea cerrada")
+    lineaAbierta.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/discontinua-removebg-preview_bksuoe_k7yunc.png")
+    lineaAbierta.setAttribute('alt',"línea abierta")
+    lineaCerradaM.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/continua_mutable-removebg-preview_glbhp7_c7xbm3.png")
+    lineaCerradaM.setAttribute('alt',"línea cerrada mutable")
+    lineaAbiertaM.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/discontinua_mutable-removebg-preview_awadld_q3ozez.png")
+    lineaAbiertaM.setAttribute('alt',"línea abierta mutable")
+    let line =""
+    if(sumatoria==6){line= lineaAbiertaM}else if(sumatoria==8){line= lineaAbierta}else if (sumatoria==7){line= lineaCerrada} else {line= lineaCerradaM}
+    hexagramContainer.prepend(line)
+}
 
 // Pintar monedas
 function printCoin(coin1,coin2,coin3, sumatoria) {
@@ -39,26 +57,6 @@ function printCoin(coin1,coin2,coin3, sumatoria) {
         buttonCoins.removeAttribute('disabled')
         printLines(sumatoria)
       }, "1500");
-}
-
-//Imprimir las líneas
-function printLines(sumatoria){
-    const lineaCerrada = document.createElement('img')
-    const lineaAbierta = document.createElement('img')
-    const lineaCerradaM = document.createElement('img')
-    const lineaAbiertaM = document.createElement('img')
-    lineaCerrada.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/continua-removebg-preview_ywj32x_lmaqvz.png")
-    lineaCerrada.setAttribute('alt',"línea cerrada")
-    lineaAbierta.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/discontinua-removebg-preview_bksuoe_k7yunc.png")
-    lineaAbierta.setAttribute('alt',"línea abierta")
-    lineaCerradaM.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/continua_mutable-removebg-preview_glbhp7_c7xbm3.png")
-    lineaCerradaM.setAttribute('alt',"línea cerrada mutable")
-    lineaAbiertaM.setAttribute('src', "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683559609/I_ching%20_trigramas/discontinua_mutable-removebg-preview_awadld_q3ozez.png")
-    lineaAbiertaM.setAttribute('alt',"línea abierta mutable")
-    let line =""
-    if(sumatoria==6){line= lineaAbiertaM}else if(sumatoria==8){line= lineaAbierta}else if (sumatoria==7){line= lineaCerrada} else {line= lineaCerradaM}
-    hexagramContainer.prepend(line)
-    console.log(line)
 }
 
 //Buscar Hexagrama
@@ -94,21 +92,76 @@ function searchHexagram(){
 
 //Revelar Resultados
 function reveal(){
+    console.log(question)
     coinSection.classList.add('hide')
     resultSection.classList.toggle('hide')
-    
-    let button = `<button onclick="mutar()">VER HEXAGRAMA MUTADO</button>`
-    resultContainer.innerHTML="REVELACIÓN"
+    pintarHexagramas(resultImgContainer, question.trigramSup, question.trigramInf)
+    pintarInfo(resultContentContainer, question.hexagram)
+    pintarLineasMut(resultContentContainer,question)
+    pintarHexagramas(mutImgContainer, question.hexagramMutable.sup, question.hexagramMutable.sup)
+    pintarInfo(mutContentContainer, question.hexagramMutable.hex)
+    let button = `<button onclick="mutar(e)">VER HEXAGRAMA MUTADO</button>`
 }
 
 //Ver resultados mutados y originales
 function mutar(){
     resultContainer.classList.toggle('hide')
     mutContainer.classList.toggle('hide')
+    if(buttonMut.textContent=='VER HEXAGRAMA MUTADO'){
+        buttonMut.textContent='VER HEXAGRAMA ORIGINAL'
+    }else{
+        buttonMut.textContent='VER HEXAGRAMA MUTADO'
+    }
+    window.scrollTo({
+        top:0, behavior:"smooth"
+      })
 }
 
 
+//pintar hexagramas
+function pintarHexagramas(container, trigramSup,trigramInf){
+    container.innerHTML+=`
+    <div id="triImgCont" class="d-flex flex-column" >
+        <img class="triImg" src="${trigramSup.image_original_colors}" alt="tri sup" id="img__trig__sup"/>
+        <img class="triImg" src="${trigramInf.image_original_colors}" alt="tri inf" id="img__trig__inf"/>
+        <p class="text-center" style="font-size: 1.5rem;"><em>${trigramSup.image_name} sobre ${trigramInf.image_name}</em></p>
+    </div>
+    `
+}
 
+function pintarInfo(container, data) {
+    container.innerHTML += ` <h2>Hexagrama ${data.id}: ${data.title}</h2>
+            <p>${data.description.resume}</p>
 
+            <h3>Juicio:</h3>
+            <p>${data.description.judgment}</p>
+
+            <h3>Imagen:</h3>
+            <p>${data.description.image}</p>`
+}
+
+function pintarLineasMut(container, question){
+    container.innerHTML+=`<h3>Las Lineas:</h3>`
+    for (let i = 0; i <=5 ; i++) {
+        if(question.lines[i].mutable){
+            container.innerHTML+=`<h4>${question.hexagram.description.lines[i].tittle}</h4>
+            <p>${question.hexagram.description.lines[i].description}</p>`
+        }
+    }
+    if(!question.lines.some(line => line.mutable==true)){
+        question.hexagram.description.lines.forEach(element => {
+            container.innerHTML+=`<h4>${element.tittle}</h4>
+            <p>${element.description}</p>`
+        });
+    }
+
+}
+function negritear(texto){
+    let regEx=/\w+$\:/gi
+    texto.match(/[.]*?“$/gi)
+}
+function cursivear(texto){
+    texto.match(/^\“[.]*?”$/gi)
+}
 //Result Section tiene que tener clase hide en principio
 //mut container también. 
