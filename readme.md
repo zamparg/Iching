@@ -38,6 +38,6 @@ Este sitio incluye una pequeña introducción y un programa para poder realizar 
 
 ## Autores
 
-[@MorganaLA](https://www.github.com/MorganaLA)
-[@LucianoCarr](https://www.github.com/LucianoCarr)
-[@zamparg](https://www.github.com/zamparg)
+- [@MorganaLA](https://www.github.com/MorganaLA)
+- [@LucianoCarr](https://www.github.com/LucianoCarr)
+- [@zamparg](https://www.github.com/zamparg)
