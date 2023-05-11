@@ -45,3 +45,30 @@ async function start(){
     trigrams = await fetchData('./scripts/trigrams.json');
     hexagrams = await fetchData('./scripts/data.json')
 }
+
+
+// $('#historyT').on('shown', function () {
+//     $("#historyContent").scrollTop(0);
+// });
+
+// $('#historyT').on('shown.bs.modal', function () {
+//     $('#historyT').animate({ scrollTop: 0 }, 'slow');
+// });
+
+// $('#historyT').show().scrollTop(0);
+
+// $('#historyContent').animate({scrollTop: 0},400);
+
+const accordionItems = document.querySelectorAll('.collapse')
+const acc = document.getElementById('history')
+console.log(accordionItems)
+
+accordionItems.forEach((el)=>{
+    el.addEventListener('shown.bs.collapse',(e)=>{
+        var scrollOffset = acc.scrollTop + el.parentNode.offsetTop
+        acc.scroll({
+            top: scrollOffset,
+            left: 0, 
+            behavior: 'smooth'
+        })
+    })})
