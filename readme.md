@@ -1,7 +1,9 @@
 # I-Ching
-**Funko Shop** es el proyecto integrador de la primera etapa (front) del Curso de desarrollo Fullstack "CODO A CODO" otorgado por Agencia de Aprendizaje a lo largo de vida. 
+**I-Ching** El I CHING o Libro de los Cambios, constituye el más antiguo de los textos clásicos del pensamiento chino. Su antigüedad puede situarse por lo menos entre los años 1.000 y 2.000 A. C
 
-Es un sitio que incluye un carrito de compras para la adquisición de muñecos Funko.
+Arrojando una combinación de monedas se llegan a establecer dos trigramas resultantes de la combinación de líneas rectas y cortadas. Cada uno de ellos tiene su explicación en el Libro, hasta completar un total de 64 posibilidades diferentes.
+
+Este sitio incluye una pequeña introducción y un programa para poder realizar una pregunta y obtener una respuesta del libro.
 
 <!-- [**Ver Sitio**](https://zamparg.github.io/Amazing_Events_Zampar/)  -->
 
@@ -15,11 +17,10 @@ Es un sitio que incluye un carrito de compras para la adquisición de muñecos F
 
 ## Funciones
 
-- Consumo asíncrono de API
-- Filtrado de contenido mediante Input, checkboxes y filtro cruzado.
+- Consumo asíncrono de Datos
+- Manejo de estructuras de Datos
 - Contenido dinámico
-- Carrito de compras
-- Muestreo de Estadísticas
+- Funciones emuladoras de azar
 
 <!-- ## Screenshots
 ### Index
@@ -34,6 +35,9 @@ Es un sitio que incluye un carrito de compras para la adquisición de muñecos F
 ### Carrito
 ![App Screenshot](https://res.cloudinary.com/zamparg/image/upload/v1681913411/Screens/AEscreen4_zvdzl7.png)
  -->
-## Autoría y Agradecimientos
 
-**Autor:** [@zamparg](https://www.github.com/zamparg)
+## Autores
+
+[@MorganaLA](https://www.github.com/MorganaLA)
+[@LucianoCarr](https://www.github.com/LucianoCarr)
+[@zamparg](https://www.github.com/zamparg)
