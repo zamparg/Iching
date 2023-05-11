@@ -131,13 +131,13 @@ function pintarHexagramas(container, trigramSup,trigramInf){
 
 function pintarInfo(container, data) {
     container.innerHTML += ` <h2>Hexagrama ${data.id}: ${data.title}</h2>
-            <p>${data.description.resume}</p>
+            <p>${espaciar(data.description.resume)}</p>
 
             <h3>Juicio:</h3>
-            <p>${data.description.judgment}</p>
+            <p>${espaciar(data.description.judgment)}</p>
 
             <h3>Imagen:</h3>
-            <p>${data.description.image}</p>`
+            <p>${espaciar(data.description.image)}</p>`
 }
 
 function pintarLineasMut(container, question){
@@ -146,20 +146,21 @@ function pintarLineasMut(container, question){
         if(question.lines[i].mutable){
             let texto=question.hexagram.description.lines[i].tittle
             container.innerHTML+=`<h4><b>${negritear(texto)}</b><i>${cursivear(texto)}</i></h4>
-            <p>${question.hexagram.description.lines[i].description}</p>`
+            <p>${espaciar(question.hexagram.description.lines[i].description)}</p>`
         }
     }
     if(!question.lines.some(line => line.mutable==true)){
         question.hexagram.description.lines.forEach(element => {
             container.innerHTML+=`<h4><b>${negritear(element.tittle)}</b><i>${cursivear(element.tittle)}</i></h4>
-            <p>${element.description}</p>`
+            <p>${espaciar(element.description)}</p>`
         });
     }
 
 }
 function negritear(texto){
-    let regEx=/.+\:/gi
+    let regEx=/.+\:/g
     let negrito=texto.match(regEx)
+    console.log(negrito)
     return negrito
 }
 function cursivear(texto){
@@ -167,7 +168,7 @@ function cursivear(texto){
     let cursiva=texto.match(regEx)
     return cursiva
 }
-//Result Section tiene que tener clase hide en principio
-//mut container también. 
-
-//question.hexagram.description.lines[0].tittle
+function espaciar(texto){
+    let regEx=/\\n/
+    return texto.replace("\n", "<br>");
+}
