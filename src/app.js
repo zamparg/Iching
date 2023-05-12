@@ -5,25 +5,23 @@ import { getData } from "./services/getData.js"
 let trigrams
 let hexagrams
 
-// INICIAR
-start()
 
-let resultContainer=document.getElementById('resultContainer')
-let mutContainer=document.getElementById('mutContainer')
-let resultContentContainer=document.getElementById('resultContentContainer')
-let mutContentContainer=document.getElementById('mutContentContainer')
-let resultImgContainer=document.getElementById('resultImgContainer')
-let mutImgContainer=document.getElementById('mutImgContainer')
-let coinSection = document.getElementById('coinsSection')
-let buttonContainer=document.getElementById('buttonContainer')
-let buttonCoins=document.getElementById('buttonCoins')
-let coinContainer=document.getElementById('coinContainer')
-let hexagramContainer= document.getElementById('hexagramContainer')
-let buttonHexagram=document.getElementById('buttonHexagram')
-let buttonMut=document.getElementById('buttonMut')
+const resultContainer=document.getElementById('resultContainer')
+const mutContainer=document.getElementById('mutContainer')
+const resultContentContainer=document.getElementById('resultContentContainer')
+const mutContentContainer=document.getElementById('mutContentContainer')
+const resultImgContainer=document.getElementById('resultImgContainer')
+const mutImgContainer=document.getElementById('mutImgContainer')
+const coinSection = document.getElementById('coinsSection')
+const buttonCoins=document.getElementById('buttonCoins')
+const coinContainer=document.getElementById('coinContainer')
+const hexagramContainer= document.getElementById('hexagramContainer')
+const buttonHexagram=document.getElementById('buttonHexagram')
+const buttonMut=document.getElementById('buttonMut')
 let flipper = 1
 
-//FUNCIONES
+// INICIAR
+start()
 
 //LISTENERS
 
@@ -32,12 +30,11 @@ buttonHexagram.addEventListener('click', reveal)
 let question = {
     'lines':[],
 }
+
 buttonMut.addEventListener('click', mutar)
 
 
 // FUNCIONES
-
-
 //Iniciar
 async function start(){
     trigrams = await getData('./public/trigrams.json');
@@ -166,8 +163,8 @@ function mutar(){
 function pintarHexagramas(container, trigramSup,trigramInf){
     container.innerHTML+=`
     <div id="triImgCont" class="d-flex flex-column" >
-        <img class="triImg" src="${trigramSup.image_original_colors}" alt="tri sup" id="img__trig__sup"/>
-        <img class="triImg" src="${trigramInf.image_original_colors}" alt="tri inf" id="img__trig__inf"/>
+        <img class="triImg" src="${trigramSup.image_new_colors}" alt="tri sup" id="img__trig__sup"/>
+        <img class="triImg" src="${trigramInf.image_new_colors}" alt="tri inf" id="img__trig__inf"/>
         <p class="text-center" style="font-size: 1.5rem;"><em>${trigramSup.image_name} sobre ${trigramInf.image_name}</em></p>
     </div>
     `
@@ -213,6 +210,5 @@ function cursivear(texto){
     return cursiva
 }
 function espaciar(texto){
-    let regEx=/\\n/
-    return texto.replace("\n", "<br>");
+    return texto.replaceAll("\n", "<br>");
 }
