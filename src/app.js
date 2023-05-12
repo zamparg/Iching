@@ -1,4 +1,48 @@
+//IMPORTS
+import { getData } from "./services/getData.js"
+
+//DECLARACIONES
+let trigrams
+let hexagrams
+
+// INICIAR
+start()
+
+let resultContainer=document.getElementById('resultContainer')
+let mutContainer=document.getElementById('mutContainer')
+let resultContentContainer=document.getElementById('resultContentContainer')
+let mutContentContainer=document.getElementById('mutContentContainer')
+let resultImgContainer=document.getElementById('resultImgContainer')
+let mutImgContainer=document.getElementById('mutImgContainer')
+let coinSection = document.getElementById('coinsSection')
+let buttonContainer=document.getElementById('buttonContainer')
+let buttonCoins=document.getElementById('buttonCoins')
+let coinContainer=document.getElementById('coinContainer')
+let hexagramContainer= document.getElementById('hexagramContainer')
+let buttonHexagram=document.getElementById('buttonHexagram')
+let buttonMut=document.getElementById('buttonMut')
+let flipper = 1
+
 //FUNCIONES
+
+//LISTENERS
+
+buttonCoins.addEventListener('click', flipCoins)
+buttonHexagram.addEventListener('click', reveal)
+let question = {
+    'lines':[],
+}
+buttonMut.addEventListener('click', mutar)
+
+
+// FUNCIONES
+
+
+//Iniciar
+async function start(){
+    trigrams = await getData('./public/trigrams.json');
+    hexagrams = await getData('./public/data.json')
+}
 
 //Tirar monedas
 function flipCoins(e) {
