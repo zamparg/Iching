@@ -1,9 +1,12 @@
 # I-Ching
-**Funko Shop** es el proyecto integrador de la primera etapa (front) del Curso de desarrollo Fullstack "CODO A CODO" otorgado por Agencia de Aprendizaje a lo largo de vida. 
+Bienvenidos a nuestra página dedicada al **I Ching**, un antiguo sistema de adivinación y sabiduría de origen chino. El I Ching, también conocido como "El Libro de los Cambios", ha fascinado a filósofos, sabios y buscadores de la verdad durante miles de años.
 
-Es un sitio que incluye un carrito de compras para la adquisición de muñecos Funko.
+El I Ching se basa en el principio fundamental del cambio y la dualidad, representado por el yin y el yang. A través de la interpretación de los hexagramas, combinaciones de líneas cambiantes, el I Ching proporciona enseñanzas profundas y respuestas a nuestras preguntas más apremiantes.
 
-<!-- [**Ver Sitio**](https://zamparg.github.io/Amazing_Events_Zampar/)  -->
+Descubre la antigua sabiduría del "Libro de los Cambios" chino y obtén respuestas a tus preguntas más importantes. 
+¡Únete a nosotros en este viaje de autoconocimiento y sabiduría ancestral del I Ching!
+
+[**Ver Sitio**](https://zamparg.github.io/Iching/)
 
 ## Estado
 🏋️ Trabajando duro... 
@@ -15,11 +18,10 @@ Es un sitio que incluye un carrito de compras para la adquisición de muñecos F
 
 ## Funciones
 
-- Consumo asíncrono de API
-- Filtrado de contenido mediante Input, checkboxes y filtro cruzado.
+- Consumo asíncrono de Datos
+- Manejo de estructuras de Datos
 - Contenido dinámico
-- Carrito de compras
-- Muestreo de Estadísticas
+- Funciones emuladoras de azar
 
 <!-- ## Screenshots
 ### Index
@@ -34,6 +36,9 @@ Es un sitio que incluye un carrito de compras para la adquisición de muñecos F
 ### Carrito
 ![App Screenshot](https://res.cloudinary.com/zamparg/image/upload/v1681913411/Screens/AEscreen4_zvdzl7.png)
  -->
-## Autoría y Agradecimientos
 
-**Autor:** [@zamparg](https://www.github.com/zamparg)
+## Autores
+
+- [@MorganaLA](https://www.github.com/MorganaLA)
+- [@LucianoCarr](https://www.github.com/LucianoCarr)
+- [@zamparg](https://www.github.com/zamparg)

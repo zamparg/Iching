@@ -1,4 +1,45 @@
-//FUNCIONES
+//IMPORTS
+import { getData } from "./services/getData.js"
+
+//DECLARACIONES
+let trigrams
+let hexagrams
+
+
+const resultContainer=document.getElementById('resultContainer')
+const mutContainer=document.getElementById('mutContainer')
+const resultContentContainer=document.getElementById('resultContentContainer')
+const mutContentContainer=document.getElementById('mutContentContainer')
+const resultImgContainer=document.getElementById('resultImgContainer')
+const mutImgContainer=document.getElementById('mutImgContainer')
+const coinSection = document.getElementById('coinsSection')
+const buttonCoins=document.getElementById('buttonCoins')
+const coinContainer=document.getElementById('coinContainer')
+const hexagramContainer= document.getElementById('hexagramContainer')
+const buttonHexagram=document.getElementById('buttonHexagram')
+const buttonMut=document.getElementById('buttonMut')
+let flipper = 1
+
+// INICIAR
+start()
+
+//LISTENERS
+
+buttonCoins.addEventListener('click', flipCoins)
+buttonHexagram.addEventListener('click', reveal)
+let question = {
+    'lines':[],
+}
+
+buttonMut.addEventListener('click', mutar)
+
+
+// FUNCIONES
+//Iniciar
+async function start(){
+    trigrams = await getData('./public/trigrams.json');
+    hexagrams = await getData('./public/data.json')
+}
 
 //Tirar monedas
 function flipCoins(e) {
@@ -13,7 +54,6 @@ function flipCoins(e) {
         'mutable': sumatoria==6||sumatoria==9?true:false,
     }
     question.lines.push(flip)
-    console.log(question)
     if(flipper==6){
         searchHexagram()
         buttonCoins.setAttribute('hidden', 'true')
@@ -45,15 +85,24 @@ function printCoin(coin1,coin2,coin3, sumatoria) {
     coinContainer.innerHTML =``
     let imageCoin2 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125326/I_ching%20_trigramas/s-l500-removebg-preview_a9kjcj.png"
     let imageCoin3 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125331/I_ching%20_trigramas/s-l500__1_-removebg-preview_lfsw3k.png"
-    let moneda1 = `<div class="coin1 coins"> <img src="${coin1==2? imageCoin2 : imageCoin3}"></div>`
-    let moneda2 = `<div class="coin2 coins"><img src="${coin2==2? imageCoin2 : imageCoin3}"></div>`
-    let moneda3 = `<div class="coin3 coins"><img src="${coin3==2? imageCoin2 : imageCoin3}"></div>`
-    coinContainer.innerHTML += moneda1;
+    
+    let moneda1 = document.createElement("div")
+    let moneda2 = document.createElement("div")
+    let moneda3 = document.createElement("div")
+    
+    moneda1.setAttribute('class','coin1 coins animate__animated animate__flip')
+    moneda2.setAttribute('class','coin2 coins animate__animated animate__flip')
+    moneda3.setAttribute('class','coin3 coins animate__animated animate__flip')
+    moneda1.innerHTML=`<img src="${coin1==2? imageCoin2 : imageCoin3}">`
+    moneda2.innerHTML=`<img src="${coin2==2? imageCoin2 : imageCoin3}">`
+    moneda3.innerHTML=`<img src="${coin3==2? imageCoin2 : imageCoin3}">`
+    
+    coinContainer.appendChild(moneda1);
     setTimeout(() => {
-        coinContainer.innerHTML += moneda2;
+        coinContainer.appendChild(moneda2);
       }, "750");
       setTimeout(() => {
-        coinContainer.innerHTML += moneda3;
+        coinContainer.appendChild(moneda3);
         buttonCoins.removeAttribute('disabled')
         printLines(sumatoria)
       }, "1500");
@@ -86,13 +135,10 @@ function searchHexagram(){
     }
     question.hexagramMutable.hex= hexagrams.iching.find(el => el.hexagram.superior == question.hexagramMutable.sup.id &&
         el.hexagram.inferior == question.hexagramMutable.inf.id)
-
-        console.log(question)
 }
 
 //Revelar Resultados
 function reveal(){
-    console.log(question)
     coinSection.classList.add('hide')
     resultSection.classList.toggle('hide')
     pintarHexagramas(resultImgContainer, question.trigramSup, question.trigramInf)
@@ -117,13 +163,12 @@ function mutar(){
       })
 }
 
-
 //pintar hexagramas
 function pintarHexagramas(container, trigramSup,trigramInf){
     container.innerHTML+=`
     <div id="triImgCont" class="d-flex flex-column" >
-        <img class="triImg" src="${trigramSup.image_original_colors}" alt="tri sup" id="img__trig__sup"/>
-        <img class="triImg" src="${trigramInf.image_original_colors}" alt="tri inf" id="img__trig__inf"/>
+        <img class="triImg" src="${trigramSup.image_new_colors}" alt="tri sup" id="img__trig__sup"/>
+        <img class="triImg" src="${trigramInf.image_new_colors}" alt="tri inf" id="img__trig__inf"/>
         <p class="text-center" style="font-size: 1.5rem;"><em>${trigramSup.image_name} sobre ${trigramInf.image_name}</em></p>
     </div>
     `
@@ -131,13 +176,13 @@ function pintarHexagramas(container, trigramSup,trigramInf){
 
 function pintarInfo(container, data) {
     container.innerHTML += ` <h2>Hexagrama ${data.id}: ${data.title}</h2>
-            <p>${data.description.resume}</p>
+            <p>${espaciar(data.description.resume)}</p>
 
             <h3>Juicio:</h3>
-            <p>${data.description.judgment}</p>
+            <p>${espaciar(data.description.judgment)}</p>
 
             <h3>Imagen:</h3>
-            <p>${data.description.image}</p>`
+            <p>${espaciar(data.description.image)}</p>`
 }
 
 function pintarLineasMut(container, question){
@@ -146,19 +191,19 @@ function pintarLineasMut(container, question){
         if(question.lines[i].mutable){
             let texto=question.hexagram.description.lines[i].tittle
             container.innerHTML+=`<h4><b>${negritear(texto)}</b><i>${cursivear(texto)}</i></h4>
-            <p>${question.hexagram.description.lines[i].description}</p>`
+            <p>${espaciar(question.hexagram.description.lines[i].description)}</p>`
         }
     }
     if(!question.lines.some(line => line.mutable==true)){
         question.hexagram.description.lines.forEach(element => {
             container.innerHTML+=`<h4><b>${negritear(element.tittle)}</b><i>${cursivear(element.tittle)}</i></h4>
-            <p>${element.description}</p>`
+            <p>${espaciar(element.description)}</p>`
         });
     }
 
 }
 function negritear(texto){
-    let regEx=/.+\:/gi
+    let regEx=/.+\:/g
     let negrito=texto.match(regEx)
     return negrito
 }
@@ -167,7 +212,6 @@ function cursivear(texto){
     let cursiva=texto.match(regEx)
     return cursiva
 }
-//Result Section tiene que tener clase hide en principio
-//mut container también. 
-
-//question.hexagram.description.lines[0].tittle
+function espaciar(texto){
+    return texto.replaceAll("\n", "<br>");
+}
