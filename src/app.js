@@ -55,7 +55,6 @@ function flipCoins(e) {
         'mutable': sumatoria==6||sumatoria==9?true:false,
     }
     question.lines.push(flip)
-    console.log(question)
     if(flipper==6){
         searchHexagram()
         buttonCoins.setAttribute('hidden', 'true')
@@ -87,15 +86,24 @@ function printCoin(coin1,coin2,coin3, sumatoria) {
     coinContainer.innerHTML =``
     let imageCoin2 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125326/I_ching%20_trigramas/s-l500-removebg-preview_a9kjcj.png"
     let imageCoin3 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125331/I_ching%20_trigramas/s-l500__1_-removebg-preview_lfsw3k.png"
-    let moneda1 = `<div class="coin1 coins"> <img src="${coin1==2? imageCoin2 : imageCoin3}"></div>`
-    let moneda2 = `<div class="coin2 coins"><img src="${coin2==2? imageCoin2 : imageCoin3}"></div>`
-    let moneda3 = `<div class="coin3 coins"><img src="${coin3==2? imageCoin2 : imageCoin3}"></div>`
-    coinContainer.innerHTML += moneda1;
+    
+    let moneda1 = document.createElement("div")
+    let moneda2 = document.createElement("div")
+    let moneda3 = document.createElement("div")
+    
+    moneda1.setAttribute('class','coin1 coins animate__animated animate__flip')
+    moneda2.setAttribute('class','coin2 coins animate__animated animate__flip')
+    moneda3.setAttribute('class','coin3 coins animate__animated animate__flip')
+    moneda1.innerHTML=`<img src="${coin1==2? imageCoin2 : imageCoin3}">`
+    moneda2.innerHTML=`<img src="${coin2==2? imageCoin2 : imageCoin3}">`
+    moneda3.innerHTML=`<img src="${coin3==2? imageCoin2 : imageCoin3}">`
+    
+    coinContainer.appendChild(moneda1);
     setTimeout(() => {
-        coinContainer.innerHTML += moneda2;
+        coinContainer.appendChild(moneda2);
       }, "750");
       setTimeout(() => {
-        coinContainer.innerHTML += moneda3;
+        coinContainer.appendChild(moneda3);
         buttonCoins.removeAttribute('disabled')
         printLines(sumatoria)
       }, "1500");
@@ -128,13 +136,10 @@ function searchHexagram(){
     }
     question.hexagramMutable.hex= hexagrams.iching.find(el => el.hexagram.superior == question.hexagramMutable.sup.id &&
         el.hexagram.inferior == question.hexagramMutable.inf.id)
-
-        console.log(question)
 }
 
 //Revelar Resultados
 function reveal(){
-    console.log(question)
     coinSection.classList.add('hide')
     resultSection.classList.toggle('hide')
     pintarHexagramas(resultImgContainer, question.trigramSup, question.trigramInf)
@@ -158,7 +163,6 @@ function mutar(){
         top:0, behavior:"smooth"
       })
 }
-
 
 //pintar hexagramas
 function pintarHexagramas(container, trigramSup,trigramInf){
@@ -202,7 +206,6 @@ function pintarLineasMut(container, question){
 function negritear(texto){
     let regEx=/.+\:/g
     let negrito=texto.match(regEx)
-    console.log(negrito)
     return negrito
 }
 function cursivear(texto){
