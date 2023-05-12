@@ -1,11 +1,12 @@
 # I-Ching
-**I-Ching** El I CHING o Libro de los Cambios, constituye el más antiguo de los textos clásicos del pensamiento chino. Su antigüedad puede situarse por lo menos entre los años 1.000 y 2.000 A. C
+Bienvenidos a nuestra página dedicada al **I Ching**, un antiguo sistema de adivinación y sabiduría de origen chino. El I Ching, también conocido como "El Libro de los Cambios", ha fascinado a filósofos, sabios y buscadores de la verdad durante miles de años.
 
-Arrojando una combinación de monedas se llegan a establecer dos trigramas resultantes de la combinación de líneas rectas y cortadas. Cada uno de ellos tiene su explicación en el Libro, hasta completar un total de 64 posibilidades diferentes.
+El I Ching se basa en el principio fundamental del cambio y la dualidad, representado por el yin y el yang. A través de la interpretación de los hexagramas, combinaciones de líneas cambiantes, el I Ching proporciona enseñanzas profundas y respuestas a nuestras preguntas más apremiantes.
 
-Este sitio incluye una pequeña introducción y un programa para poder realizar una pregunta y obtener una respuesta del libro.
+Descubre la antigua sabiduría del "Libro de los Cambios" chino y obtén respuestas a tus preguntas más importantes. 
+¡Únete a nosotros en este viaje de autoconocimiento y sabiduría ancestral del I Ching!
 
-<!-- [**Ver Sitio**](https://zamparg.github.io/Amazing_Events_Zampar/)  -->
+[**Ver Sitio**](https://zamparg.github.io/Iching/)
 
 ## Estado
 🏋️ Trabajando duro... 
