@@ -5,6 +5,8 @@ import { getData } from "./services/getData.js"
 let trigrams
 let hexagrams
 
+// INICIAR
+start()
 
 const resultContainer=document.getElementById('resultContainer')
 const mutContainer=document.getElementById('mutContainer')
@@ -20,8 +22,7 @@ const buttonHexagram=document.getElementById('buttonHexagram')
 const buttonMut=document.getElementById('buttonMut')
 let flipper = 1
 
-// INICIAR
-start()
+//FUNCIONES
 
 //LISTENERS
 
