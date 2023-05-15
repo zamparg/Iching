@@ -83,7 +83,15 @@ function printLines(sumatoria){
 
 // Pintar monedas
 function printCoin(coin1,coin2,coin3, sumatoria) {
-    coinContainer.innerHTML =``
+    const coin1C= document.getElementById('coin1')
+    const coin2C= document.getElementById('coin2')
+    const coin3C= document.getElementById('coin3')
+
+    coin1C.innerHTML=""
+    coin2C.innerHTML=""
+    coin3C.innerHTML=""
+
+    //coinContainer.innerHTML =``
     let imageCoin2 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125326/I_ching%20_trigramas/s-l500-removebg-preview_a9kjcj.png"
     let imageCoin3 = "https://res.cloudinary.com/dhvz93a4h/image/upload/v1683125331/I_ching%20_trigramas/s-l500__1_-removebg-preview_lfsw3k.png"
     
@@ -94,16 +102,16 @@ function printCoin(coin1,coin2,coin3, sumatoria) {
     moneda1.setAttribute('class','coin1 coins animate__animated animate__flip')
     moneda2.setAttribute('class','coin2 coins animate__animated animate__flip')
     moneda3.setAttribute('class','coin3 coins animate__animated animate__flip')
-    moneda1.innerHTML=`<img src="${coin1==2? imageCoin2 : imageCoin3}">`
-    moneda2.innerHTML=`<img src="${coin2==2? imageCoin2 : imageCoin3}">`
-    moneda3.innerHTML=`<img src="${coin3==2? imageCoin2 : imageCoin3}">`
+    moneda1.innerHTML=`<img src="${coin1==2? imageCoin2 : imageCoin3}" class="object-fit-contain">`
+    moneda2.innerHTML=`<img src="${coin2==2? imageCoin2 : imageCoin3}" class="object-fit-contain">`
+    moneda3.innerHTML=`<img src="${coin3==2? imageCoin2 : imageCoin3}" class="object-fit-contain">`
     
-    coinContainer.appendChild(moneda1);
+    coin1C.appendChild(moneda1);
     setTimeout(() => {
-        coinContainer.appendChild(moneda2);
+        coin2C.appendChild(moneda2);
       }, "750");
       setTimeout(() => {
-        coinContainer.appendChild(moneda3);
+        coin3C.appendChild(moneda3);
         buttonCoins.removeAttribute('disabled')
         printLines(sumatoria)
       }, "1500");
