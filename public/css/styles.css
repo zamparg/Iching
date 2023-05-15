@@ -1,66 +1,132 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "JetBrains Mono", monospace;
 }
 
-@media screen and (max-width: 600px){
-  #intro, #resultContentContainer, #mutContentContainer, #historyContent{
-    width: 90%;
-    margin: 1rem auto;
-    font-size: 1.2rem;
-    padding: 1.5rem;
-  }    
-  h2, h3, h4 {
-  font-size: 1.3rem;
+@media screen and (max-width: 600px) {
+  #arrow>svg{
+    width: 4rem !important;
   }
+  #intro,
+  #resultContentContainer,
+  #mutContentContainer,
+  #historyContent {
+    width: 90% !important;
+    margin: 1rem auto;
+    margin-bottom: 1rem;
+    font-size: 1.2rem !important;
+    padding: 1.5rem !important;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 1.3rem;
+  }
+
   h4 {
     width: fit-content;
     display: flex;
     font-size: 1.2rem;
     flex-direction: column;
-}
-  #buttonCoins, #buttonHexagram, #buttonMut{ 
-    margin: 1rem auto;
   }
+
+  #buttonCoins,
+  #buttonHexagram,
+  #buttonMut {
+    margin: 1rem auto !important;
+  }
+
   #triImgCont {
-    margin: 1rem;
-    width: 90%;
+    width: 90% !important;
   }
-  #resultSection{
+
+  .triImg {
+    margin: -4rem 0 !important;
+  }
+
+  #resultSection {
     display: flex;
     width: 100%;
     flex-direction: column;
   }
-  #resultImgContainer, #mutImgContainer {
-    width: 100%;
+
+  #resultImgContainer,
+  #mutImgContainer {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  #coinsSection {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  #coinCAll {
+    width: 90%;
+    margin: auto;
+    gap: .5rem !important;
     display: flex;
     justify-content: center;
   }
-  #coinSection{
-    width: 90%;
+
+  #coinContainer {
+    width: 45% !important;
+    height: 22rem !important;
+    margin-right: .5rem !important;
+  }
+
+  #coin1,
+  #coin2,
+  #coin3 {
+    margin: 0.5rem !important;
+    display: flex;
+    align-items: center;
+    width: 6rem !important;
+    height: 6rem !important;
+  }
+
+  #hexagramContainer {
+    height: 10rem !important;
+    width: 45% !important;
     display: flex;
     flex-direction: column;
   }
-  #coinCAll>.d-flex {
-    display: flex!important;
-    margin: 1rem;
-    flex-direction: column;
-}
+
+  #historyHeader {
+    margin: 0 auto .8rem !important;
+  }
 }
 
-#tittlenav{
+#coinCAll {
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#tittlenav {
   margin: 0 !important;
   font-size: 1.8rem !important;
 }
-body{
+
+body {
   min-height: 100vh;
 }
+
 #nav-img {
   width: 3rem;
   background-color: white;
   border-radius: 99%;
 }
 
-#intro, #resultContentContainer, #mutContentContainer, #historyContent{
+#intro,
+#resultContentContainer,
+#mutContentContainer,
+#historyContent {
   padding: 2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -76,34 +142,43 @@ body{
   background-color: rgb(255 255 255 / 40%)
 }
 
-#buttonCoins, #buttonHexagram, #buttonMut{
+#buttonCoins,
+#buttonHexagram,
+#buttonMut {
   display: flex;
   margin: 1.5rem 0rem 1.5rem 26.9rem;
-} 
+}
 
-#buttonCoins, #buttonHexagram{
+#buttonCoins,
+#buttonHexagram {
   margin: 2rem 0;
 }
 
-#historyHeader{
+#historyHeader {
   width: fit-content;
-  margin: 0 29rem 2rem !important;
+  margin: 0 29rem 2rem;
   display: flex !important;
   padding: 0;
 }
 
-#historyContent{
+#historyContent {
   margin-top: 0;
 }
 
-#hexagramContainer{
+#hexagramContainer {
   background-color: #765e2e;
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   background-size: contain;
-  height: 25rem;
+  height: 16rem;
   padding: 1rem;
   border-radius: 2rem;
-  width: 12rem;
+  width: 13rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#hexagramContainer>img {
+  margin-bottom: .3rem;
 }
 
 main {
@@ -111,11 +186,12 @@ main {
   background-size: cover;
   display: flex;
   width: 100%;
+  height: 100%;
   flex-direction: column;
   align-items: center;
 }
 
-#triImgCont{
+#triImgCont {
   margin: 2rem 0 0rem;
   width: 20rem;
   background-color: #60553c;
@@ -124,16 +200,19 @@ main {
   padding-top: 1rem;
 }
 
-#resultImgContainer, #mutImgContainer{
+#resultImgContainer,
+#mutImgContainer {
   display: flex;
   justify-content: center;
 }
 
-em{
+em {
   color: #e2d2b3;
 }
 
-h2, h3, h4{
+h2,
+h3,
+h4 {
   font-weight: 700;
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   background-color: #e1d6ba8f;
@@ -141,11 +220,11 @@ h2, h3, h4{
   padding: .4rem;
 }
 
-h4{
+h4 {
   font-style: italic;
 }
 
-.triImg{
+.triImg {
   margin: -4.5rem 0;
 }
 
@@ -168,12 +247,18 @@ h4{
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   border-radius: 2rem;
   margin-bottom: 2rem;
-  margin-right: 1rem;
+}
+
+#coin1,
+#coin2,
+#coin3 {
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
 }
 
 .coins>img {
-  width: 10rem;
-  margin: 1rem;
+  width: 100%;
 }
 
 #navFooter {
@@ -184,7 +269,7 @@ h4{
   position: inherit !important;
 }
 
-#tittleIntro{
+#tittleIntro {
   margin: 0rem 0rem 2rem;
   font-weight: 600;
 }
@@ -198,36 +283,12 @@ h4{
   
 }
 
-/*GIRO DE MONEDAS PA TRABAJAR*/
-
-/* imageCoin2 {
-  z-index: 100;
+#arrow{
+ display: flex;
+ justify-content: flex-end;
+ margin-left: 16rem;
 }
-imageCoin3 {
-  -webkit-transform: rotateY(-180deg);
+#arrow>svg{
+  filter: sepia(65%);
+  width: 5rem;
 }
-.coins {
-  transition: -webkit-transform 1s ease-in;
-  -webkit-transform-style: preserve-3d;
-}
-#coin.heads {
-  -webkit-animation: flipHeads 3s ease-out forwards;
-  -moz-animation: flipHeads 3s ease-out forwards;
-    -o-animation: flipHeads 3s ease-out forwards;
-       animation: flipHeads 3s ease-out forwards;
-}
-#coin.tails {
-  -webkit-animation: flipTails 3s ease-out forwards;
-  -moz-animation: flipTails 3s ease-out forwards;
-    -o-animation: flipTails 3s ease-out forwards;
-       animation: flipTails 3s ease-out forwards;
-}
-
-@-webkit-keyframes flipHeads {
-  from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
-  to { -webkit-transform: rotateY(1800deg); -moz-transform: rotateY(1800deg); transform: rotateY(1800deg); }
-}
-@-webkit-keyframes flipTails {
-  from { -webkit-transform: rotateY(0); -moz-transform: rotateY(0); transform: rotateY(0); }
-  to { -webkit-transform: rotateY(1980deg); -moz-transform: rotateY(1980deg); transform: rotateY(1980deg); }
-} */
