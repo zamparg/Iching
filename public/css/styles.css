@@ -2,6 +2,51 @@
   font-family: "JetBrains Mono", monospace;
 }
 
+@media screen and (max-width: 600px){
+  #intro, #resultContentContainer, #mutContentContainer, #historyContent{
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+    padding: 1.5rem;
+  }    
+  h2, h3, h4 {
+  font-size: 1.3rem;
+  }
+  h4 {
+    width: fit-content;
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+}
+  #buttonCoins, #buttonHexagram, #buttonMut{ 
+    margin: 1rem auto;
+  }
+  #triImgCont {
+    margin: 1rem;
+    width: 90%;
+  }
+  #resultSection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+  #resultImgContainer, #mutImgContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #coinSection{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  #coinCAll>.d-flex {
+    display: flex!important;
+    margin: 1rem;
+    flex-direction: column;
+}
+}
+
 #tittlenav{
   margin: 0 !important;
   font-size: 1.8rem !important;
@@ -28,7 +73,7 @@ body{
   font-weight: 700;
   color: black;
   border-radius: 1rem;
-  background-color: rgba(128, 128, 128, 0.4);
+  background-color: rgb(255 255 255 / 40%)
 }
 
 #buttonCoins, #buttonHexagram, #buttonMut{
@@ -55,7 +100,7 @@ body{
   background-color: #765e2e;
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   background-size: contain;
-  height: fit-content;
+  height: 25rem;
   padding: 1rem;
   border-radius: 2rem;
 }
@@ -112,8 +157,8 @@ h4{
 #coinContainer {
   display: flex;
   justify-items: center;
-  width: 35rem;
-  height: 30rem;
+  width: 30rem;
+  height: 25rem;
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
@@ -121,10 +166,12 @@ h4{
   background-color: #585448;
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   border-radius: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
 }
 
 .coins>img {
-  width: 12rem;
+  width: 10rem;
   margin: 1rem;
 }
 
@@ -147,13 +194,13 @@ h4{
 
 /*GIRO DE MONEDAS PA TRABAJAR*/
 
-/* .side-a {
+/* imageCoin2 {
   z-index: 100;
 }
-.side-b {
+imageCoin3 {
   -webkit-transform: rotateY(-180deg);
 }
-#coin {
+.coins {
   transition: -webkit-transform 1s ease-in;
   -webkit-transform-style: preserve-3d;
 }
