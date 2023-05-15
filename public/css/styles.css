@@ -192,6 +192,11 @@ h4{
   display: none !important;
 }
 
+.skyButton {
+  cursor: pointer;
+  
+}
+
 /*GIRO DE MONEDAS PA TRABAJAR*/
 
 /* imageCoin2 {
