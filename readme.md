@@ -1,9 +1,10 @@
-# I-Ching
-Bienvenidos a nuestra página dedicada al **I Ching**, un antiguo sistema de adivinación y sabiduría de origen chino. El I Ching, también conocido como "El Libro de los Cambios", ha fascinado a filósofos, sabios y buscadores de la verdad durante miles de años.
+# I-Ching ☯️
+Bienvenidos a nuestra página dedicada al **I Ching**, un antiguo sistema de adivinación y sabiduría de origen chino. También conocido como "El Libro de los Cambios", ha fascinado a filósofos, sabios y buscadores de la verdad durante miles de años.
 
-El I Ching se basa en el principio fundamental del cambio y la dualidad, representado por el yin y el yang. A través de la interpretación de los hexagramas, combinaciones de líneas cambiantes, el I Ching proporciona enseñanzas profundas y respuestas a nuestras preguntas más apremiantes.
+El I Ching se basa en el principio fundamental del cambio y la dualidad, representado por el yin y el yang. A través de la interpretación de los hexagramas, combinaciones de líneas cambiantes, este libro oracular proporciona enseñanzas profundas y respuestas a nuestras preguntas más apremiantes.
 
-Descubre la antigua sabiduría del "Libro de los Cambios" chino y obtén respuestas a tus preguntas más importantes. 
+Descubre la antigua sabiduría del "Libro de los Cambios" chino y obtén respuestas a tus preguntas más importantes.
+
 ¡Únete a nosotros en este viaje de autoconocimiento y sabiduría ancestral del I Ching!
 
 [**Ver Sitio**](https://zamparg.github.io/Iching/)
