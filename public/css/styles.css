@@ -149,7 +149,7 @@ body {
 #buttonHexagram,
 #buttonMut {
   display: flex;
-  margin: 1.5rem 0rem 1.5rem 26.9rem;
+  margin: 2rem auto;
 }
 
 #buttonCoins,
