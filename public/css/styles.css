@@ -6,9 +6,10 @@
 }
 
 @media screen and (max-width: 600px) {
-  #arrow>svg{
+  #arrow>svg {
     width: 4rem !important;
   }
+
   #intro,
   #resultContentContainer,
   #mutContentContainer,
@@ -280,15 +281,16 @@ h4 {
 
 .skyButton {
   cursor: pointer;
-  
+
 }
 
-#arrow{
- display: flex;
- justify-content: flex-end;
- margin-left: 16rem;
+#arrow {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 16rem;
 }
-#arrow>svg{
+
+#arrow>svg {
   filter: sepia(65%);
   width: 5rem;
 }
