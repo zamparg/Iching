@@ -285,15 +285,11 @@ h4 {
   display: none !important;
 }
 
-.skyButton {
-  cursor: pointer;
-
-}
-
 #arrow {
   display: flex;
   justify-content: flex-end;
   margin-left: auto;
+  cursor: pointer;
 }
 
 #arrow>svg {
