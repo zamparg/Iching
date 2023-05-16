@@ -40,11 +40,9 @@
   }
 
   #triImgCont {
-    width: 90% !important;
-  }
-
-  .triImg {
-    margin: -4rem 0 !important;
+    width: 18rem !important;
+    display: flex;
+    align-items: center;
   }
 
   #resultSection {
@@ -201,6 +199,10 @@ main {
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   border-radius: 2rem;
   padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 #resultImgContainer,
@@ -232,6 +234,7 @@ h4 {
 }
 
 .triImg {
+  width: 19rem;
   margin: -4.5rem 0;
 }
 
