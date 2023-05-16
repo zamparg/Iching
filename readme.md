@@ -10,7 +10,7 @@ Descubre la antigua sabiduría del "Libro de los Cambios" chino y obtén respues
 [**Ver Sitio**](https://zamparg.github.io/Iching/)
 
 ## Estado
-🏋️ Trabajando duro... 
+🚀  ¡En producción!
 
 ## Lenguajes utilizados
 
