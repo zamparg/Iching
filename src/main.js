@@ -12,16 +12,14 @@
 // $('#historyContent').animate({scrollTop: 0},400);
 
 const acc = document.getElementById('history')
-console.log(acc)
+
 
 document.getElementById('buttonHistory').addEventListener('click', async (e)=>{
     setTimeout(()=>{
-
-        if(location.hash=='#history'){
+        if((document.getElementById('buttonHistory')).ariaExpanded){
+            location.hash = "history"
+        }else {
             location.hash=''
 
-        }else {
-
-            location.hash = "history"
         }},170)   
 })
