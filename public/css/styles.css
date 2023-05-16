@@ -100,7 +100,7 @@
   }
 }
 
-#history{
+#history {
   width: 100%;
 }
 
@@ -211,7 +211,7 @@ main {
   justify-content: center;
 }
 
-section{
+section {
   width: 100%;
 }
 
@@ -279,9 +279,14 @@ h4 {
   position: inherit !important;
 }
 
-#tittleIntro {
+#tittleIntro,
+#tittleHow {
   margin: 0rem 0rem 2rem;
   font-weight: 600;
+}
+
+ol {
+  text-align: initial;
 }
 
 .hide {
