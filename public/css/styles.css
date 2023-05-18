@@ -35,7 +35,8 @@
 
   #buttonCoins,
   #buttonHexagram,
-  #buttonMut {
+  #buttonMut,
+  #buttonReturn {
     margin: 1rem auto !important;
   }
 
@@ -145,7 +146,8 @@ body {
 
 #buttonCoins,
 #buttonHexagram,
-#buttonMut {
+#buttonMut,
+#buttonReturn {
   display: flex;
   margin: 2rem auto;
 }
