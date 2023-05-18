@@ -5,100 +5,6 @@
   font-family: "JetBrains Mono", monospace;
 }
 
-@media screen and (max-width: 650px) {
-  #arrow>svg {
-    width: 4rem !important;
-  }
-
-  #intro,
-  #resultContentContainer,
-  #mutContentContainer,
-  #historyContent {
-    margin: 1rem auto;
-    margin-bottom: 1rem;
-    font-size: 1.2rem !important;
-    padding: 1.5rem !important;
-  }
-
-  h2,
-  h3,
-  h4 {
-    font-size: 1.3rem;
-  }
-
-  h4 {
-    width: fit-content;
-    display: flex;
-    font-size: 1.2rem;
-    flex-direction: column;
-  }
-
-  #buttonCoins,
-  #buttonHexagram,
-  #buttonMut,
-  #buttonReturn {
-    margin: 1rem auto !important;
-  }
-
-  #triImgCont {
-    width: 18rem !important;
-    display: flex;
-    align-items: center;
-  }
-
-  #resultSection {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-  }
-
-  #resultImgContainer,
-  #mutImgContainer {
-    width: 100% !important;
-    display: flex !important;
-    justify-content: center !important;
-  }
-
-  #coinsSection {
-    width: 100% !important;
-    display: flex;
-    flex-direction: column !important;
-  }
-
-  #coinCAll {
-    width: 90%;
-    margin: auto;
-    gap: .5rem !important;
-    display: flex;
-    justify-content: center;
-  }
-
-  #coinContainer {
-    width: 45% !important;
-    height: 22rem !important;
-    margin-right: .5rem !important;
-  }
-
-  #coin1,
-  #coin2,
-  #coin3 {
-    margin: 0.5rem !important;
-    display: flex;
-    align-items: center;
-    width: 6rem !important;
-    height: 6rem !important;
-  }
-
-  #hexagramContainer {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #historyHeader {
-    margin: 0 auto .8rem !important;
-  }
-}
-
 #history {
   width: 100%;
 }
@@ -171,7 +77,8 @@ body {
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
   background-size: contain;
   height: fit-content;
-  width: auto;
+  width: 25%;
+  min-height: 18rem;
   padding: .6rem .2rem;
   border-radius: 2rem;
   display: flex;
@@ -306,4 +213,112 @@ ol {
 #arrow>svg {
   filter: sepia(65%);
   width: 5rem;
+}
+
+@media screen and (max-width: 650px) {
+  #arrow>svg {
+    width: 4rem !important;
+  }
+
+  #intro,
+  #resultContentContainer,
+  #mutContentContainer,
+  #historyContent {
+    margin: 1rem auto;
+    margin-bottom: 1rem;
+    font-size: 1.2rem !important;
+    padding: 1.5rem !important;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    width: fit-content;
+    display: flex;
+    font-size: 1.2rem;
+    flex-direction: column;
+  }
+
+  #buttonCoins,
+  #buttonHexagram,
+  #buttonMut,
+  #buttonReturn {
+    margin: 1rem auto !important;
+  }
+
+  #triImgCont {
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+
+  #resultSection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  #resultImgContainer,
+  #mutImgContainer {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  #coinsSection {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+  }
+
+  #coinCAll {
+    width: 90%;
+    margin: auto;
+    gap: .5rem !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  #coinContainer {
+    width: 45% !important;
+    height: 22rem !important;
+    margin-right: .5rem !important;
+  }
+
+  #coin1,
+  #coin2,
+  #coin3 {
+    margin: 0.5rem !important;
+    display: flex;
+    align-items: center;
+    width: 6rem !important;
+    height: 6rem !important;
+  }
+
+  #hexagramContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #historyHeader {
+    margin: 0 auto .8rem !important;
+  }
+
+  #hexagramContainer {
+  
+    min-height: 12rem;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  #hexagramContainer {
+    min-height: 10rem;
+    width: 30%;
+
+  }
 }
