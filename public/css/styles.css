@@ -215,6 +215,23 @@ ol {
   width: 5rem;
 }
 
+.logoRed{
+  max-height: 20px;
+}
+.bx{
+  color: white;
+  max-height: 30px;
+  -webkit-filter: drop-shadow(5px 5px 5px #585448);
+  filter: drop-shadow(5px 5px 5px #585448);
+  font-size: x-large;
+  margin: 1rem;
+}
+.redesContainer{
+  background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
+    background-color: #e1d6ba8f;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+}
 @media screen and (max-width: 650px) {
   #arrow>svg {
     width: 4rem !important;
