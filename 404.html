@@ -73,7 +73,47 @@
       }
     </style>
   </head>
-  <body>
+    <body class="d-flex flex-column justify-content-between">
+      <header id="topofthePage">
+          <nav class="navbar navbar-dark bg-dark">
+              <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1 id="tittlenav" class="navbar-brand fs-4">I Ching</h1> 
+                <img id="nav-img" src="https://res.cloudinary.com/dhvz93a4h/image/upload/v1683032117/I_ching%20_trigramas/pngwing.com_mdwq9n.png" alt=""> 
+                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          I Ching
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                          <li><a class="dropdown-item" href="#historyT">Historia</a></li> 
+                          <li>
+                            <hr class="dropdown-divider">
+                          </li>
+                          <li><a class="dropdown-item" href="./app.html">Tirar monedas</a></li>
+                        </ul>
+                      </li>
+                      <br><br>
+                      <li>Este proyecto fue realizado con mucho❤️<br>
+                        Si querés apoyarnos, podés regalarnos un cafecito.<br><br>
+                        <em>El equipo de desarrollo I-Chill</em></p><a href='https://cafecito.app/ichill' rel='noopener' target='_blank'><img srcset='https://cdn.cafecito.app/imgs/buttons/button_5.png 1x' src='https://cdn.cafecito.app/imgs/buttons/button_5.png' alt='Invitame un café en cafecito.app' /></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </nav>
+      </header>  
     <div id="message">
       <h2>404</h2>
       <h1>Page Not Found</h1>
@@ -83,6 +123,16 @@
       </p>
       <a class="btn btn-dark" href="./index.html">#IChing</a>
     </div>
+
+    <footer>
+      <nav id="navFooter" class="navbar bg-dark">
+        <div class="d-flex text-center m-auto align-items-center fs-6">
+          <small style="color: antiquewhite;"> <a href="#">I Ching</a> &copy;. Todos los derechos Reservados.
+            Designed by I-Chill<a href="https://github.com/zamparg/Iching.git"></a></small>
+            <a href='https://cafecito.app/ichill' rel='noopener' target='_blank' class="mx-2"><img src='https://cdn.cafecito.app/imgs/cafecito-logo-round.png' alt='Invitame un café en cafecito.app' class="object-fit img-fluid logoRed"></a>
+        </div>
+      </nav>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
