@@ -215,10 +215,11 @@ ol {
   width: 5rem;
 }
 
-.logoRed{
+.logoRed {
   max-height: 20px;
 }
-.bx{
+
+.bx {
   color: white;
   max-height: 30px;
   -webkit-filter: drop-shadow(5px 5px 5px #585448);
@@ -226,36 +227,47 @@ ol {
   font-size: 2.2rem;
   margin: .5rem 1rem;
 }
-.scmedia{
+
+.scmedia {
   text-decoration: none !important;
 }
-.bx:hover{
+
+#cafecitoE {
+  text-decoration: none !important;
+}
+
+#cafeE {
+  margin: 0;
+}
+
+.bx:hover {
   -webkit-filter: drop-shadow(-2px 2px 1px #ffffff);
   filter: drop-shadow(-2px 2px 1px #ffffff);
-} 
+}
 
-#face:hover{
+#face:hover {
   color: #3B5998;
 }
 
-#wpp:hover{
+#wpp:hover {
   color: #1EBEA5;
 }
 
-#tweet:hover{
+#tweet:hover {
   color: #08a0e9;
 }
 
-.redesContainer{
+.redesContainer {
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
-    background-color: #e1d6ba8f;
-    border-radius: 0.5rem;
-    padding: 0.4rem;
+  background-color: #e1d6ba8f;
+  border-radius: 0.5rem;
+  padding: 0.4rem;
 }
 
-#arrow{
+#arrow {
   max-width: 60px;
 }
+
 @media screen and (max-width: 650px) {
   #arrow>svg {
     width: 4rem !important;
@@ -350,14 +362,16 @@ ol {
   }
 
   #hexagramContainer {
-  
+
     min-height: 12rem;
     width: 30%;
   }
 }
-.bx-coffee-togo{
+
+.bx-coffee-togo {
   font-size: larger;
 }
+
 @media screen and (max-width:450px) {
   #hexagramContainer {
     min-height: 10rem;
