@@ -164,9 +164,9 @@ function reveal(){
     pintarInfo(mutContentContainer, question.hexagramMutable.hex)
     let botonesRedes = `<h5 class="text-center text-bold"> Compartir en redes sociales</h5>
         <div class="d-flex justify-content-center ">
-        <a  target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://librodelasmutaciones.com.ar/app.html"><i class="bx bxl-facebook-square"></i></a>
-        <a  target="_blank" href="https://twitter.com/intent/tweet?text=Hoy pregunté al I-ching y conoci mi destino, me salió el Hexagrama ${question.hexagram.id}: ${question.hexagram.title}. Queres conocer el tuyo?&url=https://librodelasmutaciones.com.ar/app.html&hashtags=iching"><i class='bx bxl-twitter'></i></a>
-        <a  target="_blank" href="whatsapp://send?text=Hoy pregunté al I-ching y conoci mi destino, me salió el Hexagrama ${question.hexagram.id}: ${question.hexagram.title}. Queres conocer el tuyo? - https://librodelasmutaciones.com.ar/app.html" data-action="share/whatsapp/share"><i class="bx bxl-whatsapp"></i></a>
+        <a class="scmedia" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://librodelasmutaciones.com.ar/app.html"><i id="face" class="bx bxl-facebook-square"></i></a>
+        <a class="scmedia" target="_blank" href="https://twitter.com/intent/tweet?text=Hoy pregunté al I-ching y conoci mi destino, me salió el Hexagrama ${question.hexagram.id}: ${question.hexagram.title}. Queres conocer el tuyo?&url=https://librodelasmutaciones.com.ar/app.html&hashtags=iching"><i id="tweet" class='bx bxl-twitter'></i></a>
+        <a class="scmedia" target="_blank" href="whatsapp://send?text=Hoy pregunté al I-ching y conoci mi destino, me salió el Hexagrama ${question.hexagram.id}: ${question.hexagram.title}. Queres conocer el tuyo? - https://librodelasmutaciones.com.ar/app.html" data-action="share/whatsapp/share"><i id="wpp" class="bx bxl-whatsapp"></i></a>
         </div>
         `
    document.getElementById('redesContainer').innerHTML+=botonesRedes

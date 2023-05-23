@@ -223,9 +223,29 @@ ol {
   max-height: 30px;
   -webkit-filter: drop-shadow(5px 5px 5px #585448);
   filter: drop-shadow(5px 5px 5px #585448);
-  font-size: x-large;
-  margin: 1rem;
+  font-size: 2.2rem;
+  margin: .5rem 1rem;
 }
+.scmedia{
+  text-decoration: none !important;
+}
+.bx:hover{
+  -webkit-filter: drop-shadow(-2px 2px 1px #ffffff);
+  filter: drop-shadow(-2px 2px 1px #ffffff);
+} 
+
+#face:hover{
+  color: #3B5998;
+}
+
+#wpp:hover{
+  color: #1EBEA5;
+}
+
+#tweet:hover{
+  color: #08a0e9;
+}
+
 .redesContainer{
   background-image: url(https://www.transparenttextures.com/patterns/wood-pattern.png);
     background-color: #e1d6ba8f;
